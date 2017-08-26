@@ -1,16 +1,31 @@
 import React from 'react';
 import propTypes from 'prop-types';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, Image } from 'react-native';
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#F5FCFF',
+  card: {
+    backgroundColor: '#fff',
+    margin: 5,
+    borderRadius: 2,
+    shadowColor: '#000000',
+    shadowOpacity: 0.3,
+    shadowRadius: 1,
+    shadowOffset: {
+      height: 1,
+      width: 0.3,
+    },
+  },
+  image: {
+    height: 150,
   },
 });
 
 const ArticleItem = ({ title, date, author, website, image }) =>
-  <View style={styles.container}>
+  <View style={styles.card}>
+    <Image
+      style={styles.image}
+      source={{ uri: image }}
+    />
     <Text>
       {title}
     </Text>
@@ -22,9 +37,6 @@ const ArticleItem = ({ title, date, author, website, image }) =>
     </Text>
     <Text>
       {website}
-    </Text>
-    <Text>
-      {image}
     </Text>
   </View>;
 

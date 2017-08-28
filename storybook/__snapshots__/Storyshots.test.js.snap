@@ -1,0 +1,965 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots ArticleItem with NASA news 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#DFE0E0",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 200,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": 2,
+          "margin": 5,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 1,
+            "width": 0.3,
+          },
+          "shadowOpacity": 0.3,
+          "shadowRadius": 1,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_03_ocz3gy.jpg",
+          }
+        }
+        style={
+          Object {
+            "height": 150,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "margin": 10,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "fontSize": 20,
+              "fontWeight": "500",
+            }
+          }
+        >
+          NASA Formalizes Efforts To Protect Earth From Asteroids
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#424242",
+              "fontSize": 14,
+            }
+          }
+        >
+          Alexandre Henrique Shailesh Zeta-Jones
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#757575",
+              "fontSize": 10,
+              "fontWeight": "500",
+            }
+          }
+        >
+          05/28/2014
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "color": "#757575",
+              "fontSize": 10,
+              "marginTop": 4,
+            }
+          }
+        >
+          International Business Times - Australia
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots ArticleItem with obama news 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#DFE0E0",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 200,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": 2,
+          "margin": 5,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 1,
+            "width": 0.3,
+          },
+          "shadowOpacity": 0.3,
+          "shadowRadius": 1,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_01_illh01.jpg",
+          }
+        }
+        style={
+          Object {
+            "height": 150,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "margin": 10,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "fontSize": 20,
+              "fontWeight": "500",
+            }
+          }
+        >
+          Obama Offers Hopeful Vision While Noting Nation's Fears
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#424242",
+              "fontSize": 14,
+            }
+          }
+        >
+          Graham Spencer
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#757575",
+              "fontSize": 10,
+              "fontWeight": "500",
+            }
+          }
+        >
+          05/26/2014
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "color": "#757575",
+              "fontSize": 10,
+              "marginTop": 4,
+            }
+          }
+        >
+          MacStories
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots ArticleList default 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#DFE0E0",
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "authors": "Graham Spencer",
+          "content": "In his last State of the Union address, President Obama sought to paint a hopeful portrait. But he acknowledged that many Americans felt shut out of a political and economic system they view as rigged.",
+          "date": "05/26/2014",
+          "image_url": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_01_illh01.jpg",
+          "tags": Array [
+            Object {
+              "id": 1,
+              "label": "Politics",
+            },
+          ],
+          "title": "Obama Offers Hopeful Vision While Noting Nation's Fears",
+          "website": "MacStories",
+        },
+        Object {
+          "authors": "Fran Bellamy",
+          "content": "One day after Uber updated its API to add 'content experiences' for passengers, the U.S. companyâ€™s biggest rival â€” Didi Kuaidi in China â€” has opened its own platform up by releasing an SDK for developers and third-parties.",
+          "date": "05/27/2014",
+          "image_url": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_02_ulyqvw.jpg",
+          "tags": Array [
+            Object {
+              "id": 2,
+              "label": "Tech",
+            },
+          ],
+          "title": "Didi Kuaidi, The Company Beating Uber In China, Opens Its API To Third PartyÂ Apps",
+          "website": "Masslive",
+        },
+        Object {
+          "authors": "Alexandre Henrique Shailesh Zeta-Jones",
+          "content": "Last week, NASA announced a new program called the Planetary Defense Coordination Office (PDCO) which will coordinate NASAâ€™s efforts for detecting and tracking near-Earth objects (NEOs). If a large object comes hurtling toward our planetâ€¦ ",
+          "date": "05/28/2014",
+          "image_url": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_03_ocz3gy.jpg",
+          "tags": Array [
+            Object {
+              "id": 3,
+              "label": "Science",
+            },
+          ],
+          "title": "NASA Formalizes Efforts To Protect Earth From Asteroids",
+          "website": "International Business Times - Australia",
+        },
+        Object {
+          "authors": "Dusan Belic",
+          "content": "The favored in-flight pastime of a group of players including Al Horford, Kent Bazemore and Dennis Schroder is a schoolchildrenâ€™s card game with some added twists.",
+          "date": "05/26/2014",
+          "image_url": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488994455/challenge/news_04.jpg",
+          "tags": Array [
+            Object {
+              "id": 4,
+              "label": "Sports",
+            },
+          ],
+          "title": "For Some Atlanta Hawks, a Revved-Up Game of Uno Is Diversion No. 1",
+          "website": "Into Mobile",
+        },
+        Object {
+          "authors": "Harmeet Shah Singh",
+          "content": "Oscar the Grouch has a recycling bin and Big Bird has moved to a tree as the childrenâ€™s classic debuts on HBO, aiming at a generation that doesnâ€™t distinguish between TV and mobile screens.",
+          "date": "04/02/2014",
+          "image_url": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488994454/challenge/news_05.jpg",
+          "tags": Array [
+            Object {
+              "id": 2,
+              "label": "Tech",
+            },
+          ],
+          "title": "Picking a Windows 10 Security Package",
+          "website": "CNN",
+        },
+        Object {
+          "authors": "Rene Ritchie",
+          "content": "The Energy Department and the Pentagon have been readying a weapon with a build-it-smaller approach, setting off a philosophical clash in the world of nuclear arms.",
+          "date": "05/26/2014",
+          "image_url": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488994454/challenge/news_06.png",
+          "tags": Array [
+            Object {
+              "id": 3,
+              "label": "Science",
+            },
+          ],
+          "title": "As U.S. Modernizes Nuclear Weapons, 'Smaller' Leaves Some Uneasy",
+          "website": "iMore",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    onViewableItemsChanged={undefined}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fff",
+              "borderRadius": 2,
+              "margin": 5,
+              "shadowColor": "#000000",
+              "shadowOffset": Object {
+                "height": 1,
+                "width": 0.3,
+              },
+              "shadowOpacity": 0.3,
+              "shadowRadius": 1,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_01_illh01.jpg",
+              }
+            }
+            style={
+              Object {
+                "height": 150,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "margin": 10,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "500",
+                }
+              }
+            >
+              Obama Offers Hopeful Vision While Noting Nation's Fears
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#424242",
+                  "fontSize": 14,
+                }
+              }
+            >
+              Graham Spencer
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#757575",
+                  "fontSize": 10,
+                  "fontWeight": "500",
+                }
+              }
+            >
+              05/26/2014
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "alignSelf": "flex-end",
+                  "color": "#757575",
+                  "fontSize": 10,
+                  "marginTop": 4,
+                }
+              }
+            >
+              MacStories
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fff",
+              "borderRadius": 2,
+              "margin": 5,
+              "shadowColor": "#000000",
+              "shadowOffset": Object {
+                "height": 1,
+                "width": 0.3,
+              },
+              "shadowOpacity": 0.3,
+              "shadowRadius": 1,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_02_ulyqvw.jpg",
+              }
+            }
+            style={
+              Object {
+                "height": 150,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "margin": 10,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "500",
+                }
+              }
+            >
+              Didi Kuaidi, The Company Beating Uber In China, Opens Its API To Third PartyÂ Apps
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#424242",
+                  "fontSize": 14,
+                }
+              }
+            >
+              Fran Bellamy
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#757575",
+                  "fontSize": 10,
+                  "fontWeight": "500",
+                }
+              }
+            >
+              05/27/2014
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "alignSelf": "flex-end",
+                  "color": "#757575",
+                  "fontSize": 10,
+                  "marginTop": 4,
+                }
+              }
+            >
+              Masslive
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fff",
+              "borderRadius": 2,
+              "margin": 5,
+              "shadowColor": "#000000",
+              "shadowOffset": Object {
+                "height": 1,
+                "width": 0.3,
+              },
+              "shadowOpacity": 0.3,
+              "shadowRadius": 1,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_03_ocz3gy.jpg",
+              }
+            }
+            style={
+              Object {
+                "height": 150,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "margin": 10,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "500",
+                }
+              }
+            >
+              NASA Formalizes Efforts To Protect Earth From Asteroids
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#424242",
+                  "fontSize": 14,
+                }
+              }
+            >
+              Alexandre Henrique Shailesh Zeta-Jones
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#757575",
+                  "fontSize": 10,
+                  "fontWeight": "500",
+                }
+              }
+            >
+              05/28/2014
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "alignSelf": "flex-end",
+                  "color": "#757575",
+                  "fontSize": 10,
+                  "marginTop": 4,
+                }
+              }
+            >
+              International Business Times - Australia
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fff",
+              "borderRadius": 2,
+              "margin": 5,
+              "shadowColor": "#000000",
+              "shadowOffset": Object {
+                "height": 1,
+                "width": 0.3,
+              },
+              "shadowOpacity": 0.3,
+              "shadowRadius": 1,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488994455/challenge/news_04.jpg",
+              }
+            }
+            style={
+              Object {
+                "height": 150,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "margin": 10,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "500",
+                }
+              }
+            >
+              For Some Atlanta Hawks, a Revved-Up Game of Uno Is Diversion No. 1
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#424242",
+                  "fontSize": 14,
+                }
+              }
+            >
+              Dusan Belic
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#757575",
+                  "fontSize": 10,
+                  "fontWeight": "500",
+                }
+              }
+            >
+              05/26/2014
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "alignSelf": "flex-end",
+                  "color": "#757575",
+                  "fontSize": 10,
+                  "marginTop": 4,
+                }
+              }
+            >
+              Into Mobile
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fff",
+              "borderRadius": 2,
+              "margin": 5,
+              "shadowColor": "#000000",
+              "shadowOffset": Object {
+                "height": 1,
+                "width": 0.3,
+              },
+              "shadowOpacity": 0.3,
+              "shadowRadius": 1,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488994454/challenge/news_05.jpg",
+              }
+            }
+            style={
+              Object {
+                "height": 150,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "margin": 10,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "500",
+                }
+              }
+            >
+              Picking a Windows 10 Security Package
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#424242",
+                  "fontSize": 14,
+                }
+              }
+            >
+              Harmeet Shah Singh
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#757575",
+                  "fontSize": 10,
+                  "fontWeight": "500",
+                }
+              }
+            >
+              04/02/2014
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "alignSelf": "flex-end",
+                  "color": "#757575",
+                  "fontSize": 10,
+                  "marginTop": 4,
+                }
+              }
+            >
+              CNN
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fff",
+              "borderRadius": 2,
+              "margin": 5,
+              "shadowColor": "#000000",
+              "shadowOffset": Object {
+                "height": 1,
+                "width": 0.3,
+              },
+              "shadowOpacity": 0.3,
+              "shadowRadius": 1,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488994454/challenge/news_06.png",
+              }
+            }
+            style={
+              Object {
+                "height": 150,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "margin": 10,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "fontSize": 20,
+                  "fontWeight": "500",
+                }
+              }
+            >
+              As U.S. Modernizes Nuclear Weapons, 'Smaller' Leaves Some Uneasy
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#424242",
+                  "fontSize": 14,
+                }
+              }
+            >
+              Rene Ritchie
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#757575",
+                  "fontSize": 10,
+                  "fontWeight": "500",
+                }
+              }
+            >
+              05/26/2014
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "alignSelf": "flex-end",
+                  "color": "#757575",
+                  "fontSize": 10,
+                  "marginTop": 4,
+                }
+              }
+            >
+              iMore
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

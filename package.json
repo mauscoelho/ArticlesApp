@@ -8,11 +8,17 @@
     "storybook": "storybook start -p 9001"
   },
   "dependencies": {
+    "immutable": "^3.8.1",
     "prop-types": "^15.5.10",
     "react": "16.0.0-alpha.12",
     "react-native": "0.47.1",
     "react-navigation": "^1.0.0-beta.11",
-    "recompose": "^0.25.0"
+    "react-redux": "^5.0.6",
+    "recompose": "^0.25.0",
+    "redux": "^3.7.2",
+    "redux-immutable": "^4.0.0",
+    "redux-observable": "^0.16.0",    
+    "rxjs": "^5.4.3"
   },
   "devDependencies": {
     "@storybook/addon-storyshots": "^3.2.5",

@@ -1,4 +1,6 @@
 import { Observable } from 'rxjs';
+import { GET_ARTICLES } from '../contansts';
+import { getArticlesResponse } from '../actions';
 
 const articles = [
   {
@@ -21,11 +23,8 @@ const articles = [
 ];
 
 const getArticles = action$ =>
-  action$.ofType('GET_ARTICLES').mergeMap(() =>
-    Observable.of({
-      type: 'GET_ARTICLES_RESPONSE',
-      payload: articles,
-    }),
+  action$.ofType(GET_ARTICLES).mergeMap(() =>
+    Observable.of(getArticlesResponse(articles)),
   );
 
 export default getArticles;

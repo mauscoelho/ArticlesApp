@@ -1,10 +1,10 @@
 import { connect } from 'react-redux';
 import { compose, lifecycle, branch, renderNothing, mapProps } from 'recompose';
 import ArticleList from '../../components/ArticleList';
-import getArticlesAction from '../../actions';
+import { getArticlesAction } from '../../actions';
 
 const mapStateToProps = state => ({
-  articles: state.articles,
+  articles: state.get('articles'),
 });
 
 const mapDispatchToProps = dispatch => ({
@@ -13,7 +13,7 @@ const mapDispatchToProps = dispatch => ({
   },
 });
 
-const hideIfNoArticles = branch(({ articles }) => !articles, renderNothing);
+const hideIfNoArticles = branch(({ articles }) => articles.size === 1, renderNothing);
 
 const enhance = compose(
   connect(mapStateToProps, mapDispatchToProps),
@@ -24,9 +24,12 @@ const enhance = compose(
     },
   }),
   hideIfNoArticles,
-  mapProps(({ articles }) => ({
-    articles: articles.toJSON(),
-  })),
+  mapProps(({ articles }) => {
+    console.log(articles);
+    return {
+      articles: articles ? articles.toJSON() : [],
+    };
+  }),
 );
 
 export default enhance(ArticleList);

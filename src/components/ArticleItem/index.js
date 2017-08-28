@@ -15,8 +15,30 @@ const styles = StyleSheet.create({
       width: 0.3,
     },
   },
+  content: {
+    margin: 10,
+  },
   image: {
     height: 150,
+  },
+  title: {
+    fontSize: 20,
+    fontWeight: '500',
+  },
+  author: {
+    fontSize: 14,
+    color: '#424242',
+  },
+  date: {
+    fontSize: 10,
+    color: '#757575',
+    fontWeight: '500',
+  },
+  website: {
+    fontSize: 10,
+    color: '#757575',
+    marginTop: 4,
+    alignSelf: 'flex-end',
   },
 });
 
@@ -26,18 +48,22 @@ const ArticleItem = ({ title, date, author, website, image }) =>
       style={styles.image}
       source={{ uri: image }}
     />
-    <Text>
-      {title}
-    </Text>
-    <Text>
-      {date}
-    </Text>
-    <Text>
-      {author}
-    </Text>
-    <Text>
-      {website}
-    </Text>
+    <View style={styles.content}>
+      <Text style={styles.title}>
+        {title}
+      </Text>
+      <Text style={styles.author}>
+        {author}
+      </Text>
+      <Text style={styles.date}>
+        {date}
+      </Text>
+
+      <Text style={styles.website}>
+        {website}
+      </Text>
+
+    </View>
   </View>;
 
 ArticleItem.propTypes = {

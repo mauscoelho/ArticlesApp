@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: '500',
   },
-  author: {
+  authors: {
     fontSize: 14,
     color: '#424242',
   },
@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
   },
 });
 
-const ArticleItem = ({ title, date, author, website, image }) =>
+const ArticleItem = ({ title, date, authors, website, image }) =>
   <View style={styles.card}>
     <Image
       style={styles.image}
@@ -52,24 +52,22 @@ const ArticleItem = ({ title, date, author, website, image }) =>
       <Text style={styles.title}>
         {title}
       </Text>
-      <Text style={styles.author}>
-        {author}
+      <Text style={styles.authors}>
+        {authors}
       </Text>
       <Text style={styles.date}>
         {date}
       </Text>
-
       <Text style={styles.website}>
         {website}
       </Text>
-
     </View>
   </View>;
 
 ArticleItem.propTypes = {
   title: propTypes.string.isRequired,
   date: propTypes.string.isRequired,
-  author: propTypes.string.isRequired,
+  authors: propTypes.string.isRequired,
   website: propTypes.string.isRequired,
   image: propTypes.string.isRequired,
 };

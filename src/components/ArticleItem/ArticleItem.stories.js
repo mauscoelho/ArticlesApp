@@ -20,7 +20,7 @@ storiesOf('ArticleItem', module).add('with obama news', () =>
     <View style={styles.item}>
       <ArticleItem
         title={"Obama Offers Hopeful Vision While Noting Nation's Fears"}
-        author={'Graham Spencer'}
+        authors={'Graham Spencer'}
         date={'05/26/2014'}
         website={'MacStories'}
         image={'https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_01_illh01.jpg'}
@@ -32,7 +32,7 @@ storiesOf('ArticleItem', module).add('with obama news', () =>
     <View style={styles.item}>
       <ArticleItem
         title={'NASA Formalizes Efforts To Protect Earth From Asteroids'}
-        author={'Alexandre Henrique Shailesh Zeta-Jones'}
+        authors={'Alexandre Henrique Shailesh Zeta-Jones'}
         date={'05/28/2014'}
         website={'International Business Times - Australia'}
         image={'https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_03_ocz3gy.jpg'}

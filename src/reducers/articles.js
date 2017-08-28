@@ -1,12 +1,9 @@
-import Immutable from 'immutable';
+import { List } from 'immutable';
 import { GET_ARTICLES_RESPONSE } from '../contansts';
 
-const initialState = Immutable.fromJS({
-  articles: [],
-});
+const initialState = List([]);
 
-const getArticles = (state, { payload }) =>
-  state.get('articles').concat(payload);
+const getArticles = (state, { payload }) => state.merge(payload);
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {

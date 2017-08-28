@@ -13,7 +13,7 @@ const mapDispatchToProps = dispatch => ({
   },
 });
 
-const hideIfNoArticles = branch(({ articles }) => articles.size === 1, renderNothing);
+const hideIfNoArticles = branch(({ articles }) => articles.isEmpty(), renderNothing);
 
 const enhance = compose(
   connect(mapStateToProps, mapDispatchToProps),
@@ -24,12 +24,9 @@ const enhance = compose(
     },
   }),
   hideIfNoArticles,
-  mapProps(({ articles }) => {
-    console.log(articles);
-    return {
-      articles: articles ? articles.toJSON() : [],
-    };
-  }),
+  mapProps(({ articles }) => ({
+    articles: articles ? articles.toJSON() : [],
+  })),
 );
 
 export default enhance(ArticleList);

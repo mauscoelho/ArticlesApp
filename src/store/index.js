@@ -4,7 +4,6 @@ import { createEpicMiddleware } from 'redux-observable';
 import reducers from '../reducers';
 import epics from '../epics';
 
-// eslint-disable-next-line
 const composeEnhancers = composeWithDevTools({ realtime: true });
 
 const epicMiddleware = createEpicMiddleware(epics);

@@ -1,8 +1,6 @@
 import Immutable from 'immutable';
 
-const initialState = Immutable.fromJS({
-  articles: [],
-});
+const initialState = Immutable.fromJS([]);
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {

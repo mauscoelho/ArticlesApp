@@ -1,10 +1,11 @@
-import { compose, createStore, applyMiddleware } from 'redux';
+import { createStore, applyMiddleware } from 'redux';
+import { composeWithDevTools } from 'remote-redux-devtools';
 import { createEpicMiddleware } from 'redux-observable';
 import reducers from '../reducers';
 import epics from '../epics';
 
 // eslint-disable-next-line
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+const composeEnhancers = composeWithDevTools({ realtime: true });
 
 const epicMiddleware = createEpicMiddleware(epics);
 

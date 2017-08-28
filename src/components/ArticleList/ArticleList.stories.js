@@ -99,7 +99,7 @@ const articles = [
   },
 ];
 
-storiesOf('ArticleList', module).add('default', () =>
+storiesOf('ArticleList', module).add('with default list', () =>
   <View style={styles.screen}>
     <ArticleList articles={articles} />
   </View>,

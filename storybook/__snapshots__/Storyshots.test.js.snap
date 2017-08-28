@@ -232,7 +232,7 @@ exports[`Storyshots ArticleItem with obama news 1`] = `
 </View>
 `;
 
-exports[`Storyshots ArticleList default 1`] = `
+exports[`Storyshots ArticleList with default list 1`] = `
 <View
   style={
     Object {

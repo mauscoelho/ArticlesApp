@@ -1,6 +1,6 @@
 import React from 'react';
 import propTypes from 'prop-types';
-import { View, Text, StyleSheet, Image } from 'react-native';
+import { View, Text, StyleSheet, Image, TouchableHighlight } from 'react-native';
 
 const styles = StyleSheet.create({
   card: {
@@ -41,6 +41,7 @@ const styles = StyleSheet.create({
     color: '#424242',
   },
   date: {
+    flex: 1,
     fontSize: 10,
     color: '#757575',
     fontWeight: '500',
@@ -48,40 +49,47 @@ const styles = StyleSheet.create({
   website: {
     fontSize: 10,
     color: '#757575',
-    marginTop: 4,
-    alignSelf: 'flex-end',
+  },
+  bottomContainer: {
+    marginTop: 8,
+    flexDirection: 'row',
   },
 });
 
-const ArticleItem = ({ title, date, authors, website, image, isRead }) =>
-  <View style={[styles.card, isRead ? styles.cardRead : styles.cardNotRead]}>
-    <Image
-      style={[styles.image, isRead ? styles.imageRead : styles.imageNotRead]}
-      source={{ uri: image }}
-    />
-    <View style={styles.content}>
-      <Text style={styles.title}>
-        {title}
-      </Text>
-      <Text style={styles.authors}>
-        {authors}
-      </Text>
-      <Text style={styles.date}>
-        {date}
-      </Text>
-      <Text style={styles.website}>
-        {website}
-      </Text>
+const ArticleItem = ({ title, date, authors, website, image_url, isRead, onPress }) =>
+  <TouchableHighlight onPress={onPress}>
+    <View style={[styles.card, isRead ? styles.cardRead : styles.cardNotRead]}>
+      <Image
+        style={[styles.image, isRead ? styles.imageRead : styles.imageNotRead]}
+        source={{ uri: image_url }}
+      />
+      <View style={styles.content}>
+        <Text style={styles.title}>
+          {title}
+        </Text>
+        <Text style={styles.authors}>
+          {authors}
+        </Text>
+        <View style={styles.bottomContainer}>
+          <Text style={styles.date}>
+            {date}
+          </Text>
+          <Text style={styles.website}>
+            {website}
+          </Text>
+        </View>
+      </View>
     </View>
-  </View>;
+  </TouchableHighlight>;
 
 ArticleItem.propTypes = {
   title: propTypes.string.isRequired,
   date: propTypes.string.isRequired,
   authors: propTypes.string.isRequired,
   website: propTypes.string.isRequired,
-  image: propTypes.string.isRequired,
+  image_url: propTypes.string.isRequired,
   isRead: propTypes.bool,
+  onPress: propTypes.func,
 };
 
 ArticleItem.defaultProps = {

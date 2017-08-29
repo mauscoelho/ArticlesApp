@@ -3,7 +3,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react-native';
 import { View, StyleSheet } from 'react-native';
-import ArticleItem from './index';
+import ArticleDetail from './index';
 
 const styles = StyleSheet.create({
   screen: {
@@ -15,40 +15,46 @@ const styles = StyleSheet.create({
   },
 });
 
-storiesOf('ArticleItem', module).add('with obama news', () =>
+storiesOf('ArticleDetail', module).add('with obama news', () =>
   <View style={styles.screen}>
     <View style={styles.item}>
-      <ArticleItem
+      <ArticleDetail
         title={"Obama Offers Hopeful Vision While Noting Nation's Fears"}
         authors={'Graham Spencer'}
         date={'05/26/2014'}
         website={'MacStories'}
         image_url={'https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_01_illh01.jpg'}
-      />
-    </View>
-  </View>,
-).add('with NASA news', () =>
-  <View style={styles.screen}>
-    <View style={styles.item}>
-      <ArticleItem
-        title={'NASA Formalizes Efforts To Protect Earth From Asteroids'}
-        authors={'Alexandre Henrique Shailesh Zeta-Jones'}
-        date={'05/28/2014'}
-        website={'International Business Times - Australia'}
-        image_url={'https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_03_ocz3gy.jpg'}
+        content={'In his last State of the Union address, President Obama sought to paint a hopeful portrait. But he acknowledged that many Americans felt shut out of a political and economic system they view as rigged.'}
+        tags={[
+          {
+            id: 1,
+            label: 'Politics',
+          },
+          {
+            id: 2,
+            label: 'Obama',
+          },
+        ]}
       />
     </View>
   </View>,
 ).add('with obama read', () =>
   <View style={styles.screen}>
     <View style={styles.item}>
-      <ArticleItem
+      <ArticleDetail
         title={"Obama Offers Hopeful Vision While Noting Nation's Fears"}
         authors={'Graham Spencer'}
         date={'05/26/2014'}
         website={'MacStories'}
         image_url={'https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_01_illh01.jpg'}
         isRead={true}
+        content={'In his last State of the Union address, President Obama sought to paint a hopeful portrait. But he acknowledged that many Americans felt shut out of a political and economic system they view as rigged.'}
+        tags={[
+          {
+            id: 1,
+            label: 'Politics',
+          },
+        ]}
       />
     </View>
   </View>,

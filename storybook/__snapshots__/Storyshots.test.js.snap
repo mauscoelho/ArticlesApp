@@ -1,131 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots ArticleItem with NASA news 1`] = `
-<View
-  style={
-    Object {
-      "backgroundColor": "#DFE0E0",
-      "flex": 1,
-    }
-  }
->
-  <View
-    style={
-      Object {
-        "height": 200,
-      }
-    }
-  >
-    <View
-      style={
-        Array [
-          Object {
-            "borderRadius": 2,
-            "margin": 5,
-            "shadowColor": "#000000",
-            "shadowOffset": Object {
-              "height": 1,
-              "width": 0.3,
-            },
-            "shadowOpacity": 0.3,
-            "shadowRadius": 1,
-          },
-          Object {
-            "backgroundColor": "#fff",
-          },
-        ]
-      }
-    >
-      <Image
-        source={
-          Object {
-            "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_03_ocz3gy.jpg",
-          }
-        }
-        style={
-          Array [
-            Object {
-              "height": 150,
-            },
-            Object {
-              "opacity": 1,
-            },
-          ]
-        }
-      />
-      <View
-        style={
-          Object {
-            "margin": 10,
-          }
-        }
-      >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          disabled={false}
-          ellipsizeMode="tail"
-          style={
-            Object {
-              "fontSize": 20,
-              "fontWeight": "500",
-            }
-          }
-        >
-          NASA Formalizes Efforts To Protect Earth From Asteroids
-        </Text>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          disabled={false}
-          ellipsizeMode="tail"
-          style={
-            Object {
-              "color": "#424242",
-              "fontSize": 14,
-            }
-          }
-        >
-          Alexandre Henrique Shailesh Zeta-Jones
-        </Text>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          disabled={false}
-          ellipsizeMode="tail"
-          style={
-            Object {
-              "color": "#757575",
-              "fontSize": 10,
-              "fontWeight": "500",
-            }
-          }
-        >
-          05/28/2014
-        </Text>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          disabled={false}
-          ellipsizeMode="tail"
-          style={
-            Object {
-              "alignSelf": "flex-end",
-              "color": "#757575",
-              "fontSize": 10,
-              "marginTop": 4,
-            }
-          }
-        >
-          International Business Times - Australia
-        </Text>
-      </View>
-    </View>
-  </View>
-</View>
-`;
-
-exports[`Storyshots ArticleItem with obama news 1`] = `
+exports[`Storyshots ArticleDetail with obama news 1`] = `
 <View
   style={
     Object {
@@ -170,7 +45,7 @@ exports[`Storyshots ArticleItem with obama news 1`] = `
         style={
           Array [
             Object {
-              "height": 150,
+              "height": 250,
             },
             Object {
               "opacity": 1,
@@ -220,37 +95,93 @@ exports[`Storyshots ArticleItem with obama news 1`] = `
           ellipsizeMode="tail"
           style={
             Object {
-              "color": "#757575",
-              "fontSize": 10,
-              "fontWeight": "500",
+              "marginTop": 6,
             }
           }
         >
-          05/26/2014
+          In his last State of the Union address, President Obama sought to paint a hopeful portrait. But he acknowledged that many Americans felt shut out of a political and economic system they view as rigged.
         </Text>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          disabled={false}
-          ellipsizeMode="tail"
+        <View
           style={
             Object {
-              "alignSelf": "flex-end",
-              "color": "#757575",
-              "fontSize": 10,
-              "marginTop": 4,
+              "flexDirection": "row",
+              "marginTop": 6,
             }
           }
         >
-          MacStories
-        </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "marginRight": 2,
+              }
+            }
+          >
+            #Politics
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "marginRight": 2,
+              }
+            }
+          >
+            #Obama
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#757575",
+                "flex": 1,
+                "fontSize": 10,
+                "fontWeight": "500",
+              }
+            }
+          >
+            05/26/2014
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#757575",
+                "fontSize": 10,
+              }
+            }
+          >
+            MacStories
+          </Text>
+        </View>
       </View>
     </View>
   </View>
 </View>
 `;
 
-exports[`Storyshots ArticleItem with obama read 1`] = `
+exports[`Storyshots ArticleDetail with obama read 1`] = `
 <View
   style={
     Object {
@@ -295,7 +226,7 @@ exports[`Storyshots ArticleItem with obama read 1`] = `
         style={
           Array [
             Object {
-              "height": 150,
+              "height": 250,
             },
             Object {
               "opacity": 0.4,
@@ -345,30 +276,556 @@ exports[`Storyshots ArticleItem with obama read 1`] = `
           ellipsizeMode="tail"
           style={
             Object {
-              "color": "#757575",
-              "fontSize": 10,
-              "fontWeight": "500",
+              "marginTop": 6,
             }
           }
         >
-          05/26/2014
+          In his last State of the Union address, President Obama sought to paint a hopeful portrait. But he acknowledged that many Americans felt shut out of a political and economic system they view as rigged.
         </Text>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          disabled={false}
-          ellipsizeMode="tail"
+        <View
           style={
             Object {
-              "alignSelf": "flex-end",
-              "color": "#757575",
-              "fontSize": 10,
-              "marginTop": 4,
+              "flexDirection": "row",
+              "marginTop": 6,
             }
           }
         >
-          MacStories
-        </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "marginRight": 2,
+              }
+            }
+          >
+            #Politics
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#757575",
+                "flex": 1,
+                "fontSize": 10,
+                "fontWeight": "500",
+              }
+            }
+          >
+            05/26/2014
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#757575",
+                "fontSize": 10,
+              }
+            }
+          >
+            MacStories
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots ArticleItem with NASA news 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#DFE0E0",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 200,
+      }
+    }
+  >
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hasTVPreferredFocus={undefined}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      nativeID={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 2,
+              "margin": 5,
+              "shadowColor": "#000000",
+              "shadowOffset": Object {
+                "height": 1,
+                "width": 0.3,
+              },
+              "shadowOpacity": 0.3,
+              "shadowRadius": 1,
+            },
+            Object {
+              "backgroundColor": "#fff",
+            },
+          ]
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_03_ocz3gy.jpg",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 150,
+              },
+              Object {
+                "opacity": 1,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Object {
+              "margin": 10,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 20,
+                "fontWeight": "500",
+              }
+            }
+          >
+            NASA Formalizes Efforts To Protect Earth From Asteroids
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#424242",
+                "fontSize": 14,
+              }
+            }
+          >
+            Alexandre Henrique Shailesh Zeta-Jones
+          </Text>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginTop": 8,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#757575",
+                  "flex": 1,
+                  "fontSize": 10,
+                  "fontWeight": "500",
+                }
+              }
+            >
+              05/28/2014
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#757575",
+                  "fontSize": 10,
+                }
+              }
+            >
+              International Business Times - Australia
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots ArticleItem with obama news 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#DFE0E0",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 200,
+      }
+    }
+  >
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hasTVPreferredFocus={undefined}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      nativeID={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 2,
+              "margin": 5,
+              "shadowColor": "#000000",
+              "shadowOffset": Object {
+                "height": 1,
+                "width": 0.3,
+              },
+              "shadowOpacity": 0.3,
+              "shadowRadius": 1,
+            },
+            Object {
+              "backgroundColor": "#fff",
+            },
+          ]
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_01_illh01.jpg",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 150,
+              },
+              Object {
+                "opacity": 1,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Object {
+              "margin": 10,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 20,
+                "fontWeight": "500",
+              }
+            }
+          >
+            Obama Offers Hopeful Vision While Noting Nation's Fears
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#424242",
+                "fontSize": 14,
+              }
+            }
+          >
+            Graham Spencer
+          </Text>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginTop": 8,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#757575",
+                  "flex": 1,
+                  "fontSize": 10,
+                  "fontWeight": "500",
+                }
+              }
+            >
+              05/26/2014
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#757575",
+                  "fontSize": 10,
+                }
+              }
+            >
+              MacStories
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots ArticleItem with obama read 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#DFE0E0",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 200,
+      }
+    }
+  >
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hasTVPreferredFocus={undefined}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      nativeID={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          undefined,
+        ]
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "borderRadius": 2,
+              "margin": 5,
+              "shadowColor": "#000000",
+              "shadowOffset": Object {
+                "height": 1,
+                "width": 0.3,
+              },
+              "shadowOpacity": 0.3,
+              "shadowRadius": 1,
+            },
+            Object {
+              "backgroundColor": "#E0E0E0",
+            },
+          ]
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_01_illh01.jpg",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "height": 150,
+              },
+              Object {
+                "opacity": 0.4,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            Object {
+              "margin": 10,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "fontSize": 20,
+                "fontWeight": "500",
+              }
+            }
+          >
+            Obama Offers Hopeful Vision While Noting Nation's Fears
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#424242",
+                "fontSize": 14,
+              }
+            }
+          >
+            Graham Spencer
+          </Text>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginTop": 8,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#757575",
+                  "flex": 1,
+                  "fontSize": 10,
+                  "fontWeight": "500",
+                }
+              }
+            >
+              05/26/2014
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#757575",
+                  "fontSize": 10,
+                }
+              }
+            >
+              MacStories
+            </Text>
+          </View>
+        </View>
       </View>
     </View>
   </View>
@@ -501,108 +958,144 @@ exports[`Storyshots ArticleList with default list 1`] = `
         style={null}
       >
         <View
+          accessibilityComponentType={undefined}
+          accessibilityLabel={undefined}
+          accessibilityTraits={undefined}
+          accessible={true}
+          hasTVPreferredFocus={undefined}
+          hitSlop={undefined}
+          isTVSelectable={true}
+          nativeID={undefined}
+          onLayout={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
           style={
             Array [
               Object {
-                "borderRadius": 2,
-                "margin": 5,
-                "shadowColor": "#000000",
-                "shadowOffset": Object {
-                  "height": 1,
-                  "width": 0.3,
-                },
-                "shadowOpacity": 0.3,
-                "shadowRadius": 1,
+                "backgroundColor": "transparent",
               },
-              Object {
-                "backgroundColor": "#fff",
-              },
+              undefined,
             ]
           }
+          testID={undefined}
+          tvParallaxProperties={undefined}
         >
-          <Image
-            source={
-              Object {
-                "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_01_illh01.jpg",
-              }
-            }
+          <View
             style={
               Array [
                 Object {
-                  "height": 150,
+                  "borderRadius": 2,
+                  "margin": 5,
+                  "shadowColor": "#000000",
+                  "shadowOffset": Object {
+                    "height": 1,
+                    "width": 0.3,
+                  },
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 1,
                 },
                 Object {
-                  "opacity": 1,
+                  "backgroundColor": "#fff",
                 },
               ]
             }
-          />
-          <View
-            style={
-              Object {
-                "margin": 10,
-              }
-            }
           >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              disabled={false}
-              ellipsizeMode="tail"
+            <Image
+              source={
+                Object {
+                  "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_01_illh01.jpg",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "height": 150,
+                  },
+                  Object {
+                    "opacity": 1,
+                  },
+                ]
+              }
+            />
+            <View
               style={
                 Object {
-                  "fontSize": 20,
-                  "fontWeight": "500",
+                  "margin": 10,
                 }
               }
             >
-              Obama Offers Hopeful Vision While Noting Nation's Fears
-            </Text>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              disabled={false}
-              ellipsizeMode="tail"
-              style={
-                Object {
-                  "color": "#424242",
-                  "fontSize": 14,
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                disabled={false}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "fontSize": 20,
+                    "fontWeight": "500",
+                  }
                 }
-              }
-            >
-              Graham Spencer
-            </Text>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              disabled={false}
-              ellipsizeMode="tail"
-              style={
-                Object {
-                  "color": "#757575",
-                  "fontSize": 10,
-                  "fontWeight": "500",
+              >
+                Obama Offers Hopeful Vision While Noting Nation's Fears
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                disabled={false}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#424242",
+                    "fontSize": 14,
+                  }
                 }
-              }
-            >
-              05/26/2014
-            </Text>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              disabled={false}
-              ellipsizeMode="tail"
-              style={
-                Object {
-                  "alignSelf": "flex-end",
-                  "color": "#757575",
-                  "fontSize": 10,
-                  "marginTop": 4,
+              >
+                Graham Spencer
+              </Text>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 8,
+                  }
                 }
-              }
-            >
-              MacStories
-            </Text>
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  disabled={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#757575",
+                      "flex": 1,
+                      "fontSize": 10,
+                      "fontWeight": "500",
+                    }
+                  }
+                >
+                  05/26/2014
+                </Text>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  disabled={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#757575",
+                      "fontSize": 10,
+                    }
+                  }
+                >
+                  MacStories
+                </Text>
+              </View>
+            </View>
           </View>
         </View>
       </View>
@@ -611,108 +1104,144 @@ exports[`Storyshots ArticleList with default list 1`] = `
         style={null}
       >
         <View
+          accessibilityComponentType={undefined}
+          accessibilityLabel={undefined}
+          accessibilityTraits={undefined}
+          accessible={true}
+          hasTVPreferredFocus={undefined}
+          hitSlop={undefined}
+          isTVSelectable={true}
+          nativeID={undefined}
+          onLayout={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
           style={
             Array [
               Object {
-                "borderRadius": 2,
-                "margin": 5,
-                "shadowColor": "#000000",
-                "shadowOffset": Object {
-                  "height": 1,
-                  "width": 0.3,
-                },
-                "shadowOpacity": 0.3,
-                "shadowRadius": 1,
+                "backgroundColor": "transparent",
               },
-              Object {
-                "backgroundColor": "#fff",
-              },
+              undefined,
             ]
           }
+          testID={undefined}
+          tvParallaxProperties={undefined}
         >
-          <Image
-            source={
-              Object {
-                "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_02_ulyqvw.jpg",
-              }
-            }
+          <View
             style={
               Array [
                 Object {
-                  "height": 150,
+                  "borderRadius": 2,
+                  "margin": 5,
+                  "shadowColor": "#000000",
+                  "shadowOffset": Object {
+                    "height": 1,
+                    "width": 0.3,
+                  },
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 1,
                 },
                 Object {
-                  "opacity": 1,
+                  "backgroundColor": "#fff",
                 },
               ]
             }
-          />
-          <View
-            style={
-              Object {
-                "margin": 10,
-              }
-            }
           >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              disabled={false}
-              ellipsizeMode="tail"
+            <Image
+              source={
+                Object {
+                  "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_02_ulyqvw.jpg",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "height": 150,
+                  },
+                  Object {
+                    "opacity": 1,
+                  },
+                ]
+              }
+            />
+            <View
               style={
                 Object {
-                  "fontSize": 20,
-                  "fontWeight": "500",
+                  "margin": 10,
                 }
               }
             >
-              Didi Kuaidi, The Company Beating Uber In China, Opens Its API To Third PartyÂ Apps
-            </Text>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              disabled={false}
-              ellipsizeMode="tail"
-              style={
-                Object {
-                  "color": "#424242",
-                  "fontSize": 14,
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                disabled={false}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "fontSize": 20,
+                    "fontWeight": "500",
+                  }
                 }
-              }
-            >
-              Fran Bellamy
-            </Text>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              disabled={false}
-              ellipsizeMode="tail"
-              style={
-                Object {
-                  "color": "#757575",
-                  "fontSize": 10,
-                  "fontWeight": "500",
+              >
+                Didi Kuaidi, The Company Beating Uber In China, Opens Its API To Third PartyÂ Apps
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                disabled={false}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#424242",
+                    "fontSize": 14,
+                  }
                 }
-              }
-            >
-              05/27/2014
-            </Text>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              disabled={false}
-              ellipsizeMode="tail"
-              style={
-                Object {
-                  "alignSelf": "flex-end",
-                  "color": "#757575",
-                  "fontSize": 10,
-                  "marginTop": 4,
+              >
+                Fran Bellamy
+              </Text>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 8,
+                  }
                 }
-              }
-            >
-              Masslive
-            </Text>
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  disabled={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#757575",
+                      "flex": 1,
+                      "fontSize": 10,
+                      "fontWeight": "500",
+                    }
+                  }
+                >
+                  05/27/2014
+                </Text>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  disabled={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#757575",
+                      "fontSize": 10,
+                    }
+                  }
+                >
+                  Masslive
+                </Text>
+              </View>
+            </View>
           </View>
         </View>
       </View>
@@ -721,108 +1250,144 @@ exports[`Storyshots ArticleList with default list 1`] = `
         style={null}
       >
         <View
+          accessibilityComponentType={undefined}
+          accessibilityLabel={undefined}
+          accessibilityTraits={undefined}
+          accessible={true}
+          hasTVPreferredFocus={undefined}
+          hitSlop={undefined}
+          isTVSelectable={true}
+          nativeID={undefined}
+          onLayout={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
           style={
             Array [
               Object {
-                "borderRadius": 2,
-                "margin": 5,
-                "shadowColor": "#000000",
-                "shadowOffset": Object {
-                  "height": 1,
-                  "width": 0.3,
-                },
-                "shadowOpacity": 0.3,
-                "shadowRadius": 1,
+                "backgroundColor": "transparent",
               },
-              Object {
-                "backgroundColor": "#fff",
-              },
+              undefined,
             ]
           }
+          testID={undefined}
+          tvParallaxProperties={undefined}
         >
-          <Image
-            source={
-              Object {
-                "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_03_ocz3gy.jpg",
-              }
-            }
+          <View
             style={
               Array [
                 Object {
-                  "height": 150,
+                  "borderRadius": 2,
+                  "margin": 5,
+                  "shadowColor": "#000000",
+                  "shadowOffset": Object {
+                    "height": 1,
+                    "width": 0.3,
+                  },
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 1,
                 },
                 Object {
-                  "opacity": 1,
+                  "backgroundColor": "#fff",
                 },
               ]
             }
-          />
-          <View
-            style={
-              Object {
-                "margin": 10,
-              }
-            }
           >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              disabled={false}
-              ellipsizeMode="tail"
+            <Image
+              source={
+                Object {
+                  "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_03_ocz3gy.jpg",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "height": 150,
+                  },
+                  Object {
+                    "opacity": 1,
+                  },
+                ]
+              }
+            />
+            <View
               style={
                 Object {
-                  "fontSize": 20,
-                  "fontWeight": "500",
+                  "margin": 10,
                 }
               }
             >
-              NASA Formalizes Efforts To Protect Earth From Asteroids
-            </Text>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              disabled={false}
-              ellipsizeMode="tail"
-              style={
-                Object {
-                  "color": "#424242",
-                  "fontSize": 14,
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                disabled={false}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "fontSize": 20,
+                    "fontWeight": "500",
+                  }
                 }
-              }
-            >
-              Alexandre Henrique Shailesh Zeta-Jones
-            </Text>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              disabled={false}
-              ellipsizeMode="tail"
-              style={
-                Object {
-                  "color": "#757575",
-                  "fontSize": 10,
-                  "fontWeight": "500",
+              >
+                NASA Formalizes Efforts To Protect Earth From Asteroids
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                disabled={false}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#424242",
+                    "fontSize": 14,
+                  }
                 }
-              }
-            >
-              05/28/2014
-            </Text>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              disabled={false}
-              ellipsizeMode="tail"
-              style={
-                Object {
-                  "alignSelf": "flex-end",
-                  "color": "#757575",
-                  "fontSize": 10,
-                  "marginTop": 4,
+              >
+                Alexandre Henrique Shailesh Zeta-Jones
+              </Text>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 8,
+                  }
                 }
-              }
-            >
-              International Business Times - Australia
-            </Text>
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  disabled={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#757575",
+                      "flex": 1,
+                      "fontSize": 10,
+                      "fontWeight": "500",
+                    }
+                  }
+                >
+                  05/28/2014
+                </Text>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  disabled={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#757575",
+                      "fontSize": 10,
+                    }
+                  }
+                >
+                  International Business Times - Australia
+                </Text>
+              </View>
+            </View>
           </View>
         </View>
       </View>
@@ -831,108 +1396,144 @@ exports[`Storyshots ArticleList with default list 1`] = `
         style={null}
       >
         <View
+          accessibilityComponentType={undefined}
+          accessibilityLabel={undefined}
+          accessibilityTraits={undefined}
+          accessible={true}
+          hasTVPreferredFocus={undefined}
+          hitSlop={undefined}
+          isTVSelectable={true}
+          nativeID={undefined}
+          onLayout={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
           style={
             Array [
               Object {
-                "borderRadius": 2,
-                "margin": 5,
-                "shadowColor": "#000000",
-                "shadowOffset": Object {
-                  "height": 1,
-                  "width": 0.3,
-                },
-                "shadowOpacity": 0.3,
-                "shadowRadius": 1,
+                "backgroundColor": "transparent",
               },
-              Object {
-                "backgroundColor": "#fff",
-              },
+              undefined,
             ]
           }
+          testID={undefined}
+          tvParallaxProperties={undefined}
         >
-          <Image
-            source={
-              Object {
-                "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488994455/challenge/news_04.jpg",
-              }
-            }
+          <View
             style={
               Array [
                 Object {
-                  "height": 150,
+                  "borderRadius": 2,
+                  "margin": 5,
+                  "shadowColor": "#000000",
+                  "shadowOffset": Object {
+                    "height": 1,
+                    "width": 0.3,
+                  },
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 1,
                 },
                 Object {
-                  "opacity": 1,
+                  "backgroundColor": "#fff",
                 },
               ]
             }
-          />
-          <View
-            style={
-              Object {
-                "margin": 10,
-              }
-            }
           >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              disabled={false}
-              ellipsizeMode="tail"
+            <Image
+              source={
+                Object {
+                  "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488994455/challenge/news_04.jpg",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "height": 150,
+                  },
+                  Object {
+                    "opacity": 1,
+                  },
+                ]
+              }
+            />
+            <View
               style={
                 Object {
-                  "fontSize": 20,
-                  "fontWeight": "500",
+                  "margin": 10,
                 }
               }
             >
-              For Some Atlanta Hawks, a Revved-Up Game of Uno Is Diversion No. 1
-            </Text>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              disabled={false}
-              ellipsizeMode="tail"
-              style={
-                Object {
-                  "color": "#424242",
-                  "fontSize": 14,
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                disabled={false}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "fontSize": 20,
+                    "fontWeight": "500",
+                  }
                 }
-              }
-            >
-              Dusan Belic
-            </Text>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              disabled={false}
-              ellipsizeMode="tail"
-              style={
-                Object {
-                  "color": "#757575",
-                  "fontSize": 10,
-                  "fontWeight": "500",
+              >
+                For Some Atlanta Hawks, a Revved-Up Game of Uno Is Diversion No. 1
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                disabled={false}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#424242",
+                    "fontSize": 14,
+                  }
                 }
-              }
-            >
-              05/26/2014
-            </Text>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              disabled={false}
-              ellipsizeMode="tail"
-              style={
-                Object {
-                  "alignSelf": "flex-end",
-                  "color": "#757575",
-                  "fontSize": 10,
-                  "marginTop": 4,
+              >
+                Dusan Belic
+              </Text>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 8,
+                  }
                 }
-              }
-            >
-              Into Mobile
-            </Text>
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  disabled={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#757575",
+                      "flex": 1,
+                      "fontSize": 10,
+                      "fontWeight": "500",
+                    }
+                  }
+                >
+                  05/26/2014
+                </Text>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  disabled={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#757575",
+                      "fontSize": 10,
+                    }
+                  }
+                >
+                  Into Mobile
+                </Text>
+              </View>
+            </View>
           </View>
         </View>
       </View>
@@ -941,108 +1542,144 @@ exports[`Storyshots ArticleList with default list 1`] = `
         style={null}
       >
         <View
+          accessibilityComponentType={undefined}
+          accessibilityLabel={undefined}
+          accessibilityTraits={undefined}
+          accessible={true}
+          hasTVPreferredFocus={undefined}
+          hitSlop={undefined}
+          isTVSelectable={true}
+          nativeID={undefined}
+          onLayout={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
           style={
             Array [
               Object {
-                "borderRadius": 2,
-                "margin": 5,
-                "shadowColor": "#000000",
-                "shadowOffset": Object {
-                  "height": 1,
-                  "width": 0.3,
-                },
-                "shadowOpacity": 0.3,
-                "shadowRadius": 1,
+                "backgroundColor": "transparent",
               },
-              Object {
-                "backgroundColor": "#fff",
-              },
+              undefined,
             ]
           }
+          testID={undefined}
+          tvParallaxProperties={undefined}
         >
-          <Image
-            source={
-              Object {
-                "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488994454/challenge/news_05.jpg",
-              }
-            }
+          <View
             style={
               Array [
                 Object {
-                  "height": 150,
+                  "borderRadius": 2,
+                  "margin": 5,
+                  "shadowColor": "#000000",
+                  "shadowOffset": Object {
+                    "height": 1,
+                    "width": 0.3,
+                  },
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 1,
                 },
                 Object {
-                  "opacity": 1,
+                  "backgroundColor": "#fff",
                 },
               ]
             }
-          />
-          <View
-            style={
-              Object {
-                "margin": 10,
-              }
-            }
           >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              disabled={false}
-              ellipsizeMode="tail"
+            <Image
+              source={
+                Object {
+                  "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488994454/challenge/news_05.jpg",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "height": 150,
+                  },
+                  Object {
+                    "opacity": 1,
+                  },
+                ]
+              }
+            />
+            <View
               style={
                 Object {
-                  "fontSize": 20,
-                  "fontWeight": "500",
+                  "margin": 10,
                 }
               }
             >
-              Picking a Windows 10 Security Package
-            </Text>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              disabled={false}
-              ellipsizeMode="tail"
-              style={
-                Object {
-                  "color": "#424242",
-                  "fontSize": 14,
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                disabled={false}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "fontSize": 20,
+                    "fontWeight": "500",
+                  }
                 }
-              }
-            >
-              Harmeet Shah Singh
-            </Text>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              disabled={false}
-              ellipsizeMode="tail"
-              style={
-                Object {
-                  "color": "#757575",
-                  "fontSize": 10,
-                  "fontWeight": "500",
+              >
+                Picking a Windows 10 Security Package
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                disabled={false}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#424242",
+                    "fontSize": 14,
+                  }
                 }
-              }
-            >
-              04/02/2014
-            </Text>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              disabled={false}
-              ellipsizeMode="tail"
-              style={
-                Object {
-                  "alignSelf": "flex-end",
-                  "color": "#757575",
-                  "fontSize": 10,
-                  "marginTop": 4,
+              >
+                Harmeet Shah Singh
+              </Text>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 8,
+                  }
                 }
-              }
-            >
-              CNN
-            </Text>
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  disabled={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#757575",
+                      "flex": 1,
+                      "fontSize": 10,
+                      "fontWeight": "500",
+                    }
+                  }
+                >
+                  04/02/2014
+                </Text>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  disabled={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#757575",
+                      "fontSize": 10,
+                    }
+                  }
+                >
+                  CNN
+                </Text>
+              </View>
+            </View>
           </View>
         </View>
       </View>
@@ -1051,108 +1688,144 @@ exports[`Storyshots ArticleList with default list 1`] = `
         style={null}
       >
         <View
+          accessibilityComponentType={undefined}
+          accessibilityLabel={undefined}
+          accessibilityTraits={undefined}
+          accessible={true}
+          hasTVPreferredFocus={undefined}
+          hitSlop={undefined}
+          isTVSelectable={true}
+          nativeID={undefined}
+          onLayout={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
           style={
             Array [
               Object {
-                "borderRadius": 2,
-                "margin": 5,
-                "shadowColor": "#000000",
-                "shadowOffset": Object {
-                  "height": 1,
-                  "width": 0.3,
-                },
-                "shadowOpacity": 0.3,
-                "shadowRadius": 1,
+                "backgroundColor": "transparent",
               },
-              Object {
-                "backgroundColor": "#fff",
-              },
+              undefined,
             ]
           }
+          testID={undefined}
+          tvParallaxProperties={undefined}
         >
-          <Image
-            source={
-              Object {
-                "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488994454/challenge/news_06.png",
-              }
-            }
+          <View
             style={
               Array [
                 Object {
-                  "height": 150,
+                  "borderRadius": 2,
+                  "margin": 5,
+                  "shadowColor": "#000000",
+                  "shadowOffset": Object {
+                    "height": 1,
+                    "width": 0.3,
+                  },
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 1,
                 },
                 Object {
-                  "opacity": 1,
+                  "backgroundColor": "#fff",
                 },
               ]
             }
-          />
-          <View
-            style={
-              Object {
-                "margin": 10,
-              }
-            }
           >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              disabled={false}
-              ellipsizeMode="tail"
+            <Image
+              source={
+                Object {
+                  "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488994454/challenge/news_06.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "height": 150,
+                  },
+                  Object {
+                    "opacity": 1,
+                  },
+                ]
+              }
+            />
+            <View
               style={
                 Object {
-                  "fontSize": 20,
-                  "fontWeight": "500",
+                  "margin": 10,
                 }
               }
             >
-              As U.S. Modernizes Nuclear Weapons, 'Smaller' Leaves Some Uneasy
-            </Text>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              disabled={false}
-              ellipsizeMode="tail"
-              style={
-                Object {
-                  "color": "#424242",
-                  "fontSize": 14,
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                disabled={false}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "fontSize": 20,
+                    "fontWeight": "500",
+                  }
                 }
-              }
-            >
-              Rene Ritchie
-            </Text>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              disabled={false}
-              ellipsizeMode="tail"
-              style={
-                Object {
-                  "color": "#757575",
-                  "fontSize": 10,
-                  "fontWeight": "500",
+              >
+                As U.S. Modernizes Nuclear Weapons, 'Smaller' Leaves Some Uneasy
+              </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                disabled={false}
+                ellipsizeMode="tail"
+                style={
+                  Object {
+                    "color": "#424242",
+                    "fontSize": 14,
+                  }
                 }
-              }
-            >
-              05/26/2014
-            </Text>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              disabled={false}
-              ellipsizeMode="tail"
-              style={
-                Object {
-                  "alignSelf": "flex-end",
-                  "color": "#757575",
-                  "fontSize": 10,
-                  "marginTop": 4,
+              >
+                Rene Ritchie
+              </Text>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 8,
+                  }
                 }
-              }
-            >
-              iMore
-            </Text>
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  disabled={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#757575",
+                      "flex": 1,
+                      "fontSize": 10,
+                      "fontWeight": "500",
+                    }
+                  }
+                >
+                  05/26/2014
+                </Text>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  disabled={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#757575",
+                      "fontSize": 10,
+                    }
+                  }
+                >
+                  iMore
+                </Text>
+              </View>
+            </View>
           </View>
         </View>
       </View>

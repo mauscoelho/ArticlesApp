@@ -39,4 +39,17 @@ storiesOf('ArticleItem', module).add('with obama news', () =>
       />
     </View>
   </View>,
+).add('with obama read', () =>
+  <View style={styles.screen}>
+    <View style={styles.item}>
+      <ArticleItem
+        title={"Obama Offers Hopeful Vision While Noting Nation's Fears"}
+        authors={'Graham Spencer'}
+        date={'05/26/2014'}
+        website={'MacStories'}
+        image={'https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_01_illh01.jpg'}
+        isRead={true}
+      />
+    </View>
+  </View>,
 );

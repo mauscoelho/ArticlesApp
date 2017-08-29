@@ -4,7 +4,6 @@ import { View, Text, StyleSheet, Image } from 'react-native';
 
 const styles = StyleSheet.create({
   card: {
-    backgroundColor: '#fff',
     margin: 5,
     borderRadius: 2,
     shadowColor: '#000000',
@@ -15,11 +14,23 @@ const styles = StyleSheet.create({
       width: 0.3,
     },
   },
+  cardNotRead: {
+    backgroundColor: '#fff',
+  },
+  cardRead: {
+    backgroundColor: '#E0E0E0',
+  },
   content: {
     margin: 10,
   },
   image: {
     height: 150,
+  },
+  imageRead: {
+    opacity: 0.4,
+  },
+  imageNotRead: {
+    opacity: 1,
   },
   title: {
     fontSize: 20,
@@ -42,10 +53,10 @@ const styles = StyleSheet.create({
   },
 });
 
-const ArticleItem = ({ title, date, authors, website, image }) =>
-  <View style={styles.card}>
+const ArticleItem = ({ title, date, authors, website, image, isRead }) =>
+  <View style={[styles.card, isRead ? styles.cardRead : styles.cardNotRead]}>
     <Image
-      style={styles.image}
+      style={[styles.image, isRead ? styles.imageRead : styles.imageNotRead]}
       source={{ uri: image }}
     />
     <View style={styles.content}>
@@ -70,6 +81,11 @@ ArticleItem.propTypes = {
   authors: propTypes.string.isRequired,
   website: propTypes.string.isRequired,
   image: propTypes.string.isRequired,
+  isRead: propTypes.bool,
+};
+
+ArticleItem.defaultProps = {
+  isRead: false,
 };
 
 export default ArticleItem;

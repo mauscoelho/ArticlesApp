@@ -20,7 +20,7 @@ const ArticleList = ({ articles, navigation }) =>
 
 ArticleList.propTypes = {
   articles: propTypes.array.isRequired,
-  navigation: propTypes.object.isRequired,
+  navigation: propTypes.object,
 };
 
 export default ArticleList;

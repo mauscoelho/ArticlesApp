@@ -13,7 +13,7 @@ const enhance = compose(
     authors: propTypes.string.isRequired,
     website: propTypes.string.isRequired,
     image_url: propTypes.string.isRequired,
-    navigation: propTypes.object.isRequired,
+    navigation: propTypes.object,
   }),
   withHandlers({
     onPress,

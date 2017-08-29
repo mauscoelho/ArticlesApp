@@ -57,30 +57,32 @@ const styles = StyleSheet.create({
 });
 
 const ArticleItem = ({ title, date, authors, website, image_url, isRead, onPress }) =>
-  <TouchableHighlight onPress={onPress}>
-    <View style={[styles.card, isRead ? styles.cardRead : styles.cardNotRead]}>
-      <Image
-        style={[styles.image, isRead ? styles.imageRead : styles.imageNotRead]}
-        source={{ uri: image_url }}
-      />
-      <View style={styles.content}>
-        <Text style={styles.title}>
-          {title}
-        </Text>
-        <Text style={styles.authors}>
-          {authors}
-        </Text>
-        <View style={styles.bottomContainer}>
-          <Text style={styles.date}>
-            {date}
+  <View style={[styles.card, isRead ? styles.cardRead : styles.cardNotRead]}>
+    <TouchableHighlight onPress={onPress} underlayColor={'#BDBDBD'}>
+      <View>
+        <Image
+          style={[styles.image, isRead ? styles.imageRead : styles.imageNotRead]}
+          source={{ uri: image_url }}
+        />
+        <View style={styles.content}>
+          <Text style={styles.title}>
+            {title}
           </Text>
-          <Text style={styles.website}>
-            {website}
+          <Text style={styles.authors}>
+            {authors}
           </Text>
+          <View style={styles.bottomContainer}>
+            <Text style={styles.date}>
+              {date}
+            </Text>
+            <Text style={styles.website}>
+              {website}
+            </Text>
+          </View>
         </View>
       </View>
-    </View>
-  </TouchableHighlight>;
+    </TouchableHighlight>
+  </View>;
 
 ArticleItem.propTypes = {
   title: propTypes.string.isRequired,

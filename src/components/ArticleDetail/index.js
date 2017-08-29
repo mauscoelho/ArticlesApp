@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
     margin: 10,
   },
   image: {
-    height: 200,
+    height: 250,
   },
   imageRead: {
     opacity: 0.4,

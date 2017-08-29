@@ -8,6 +8,7 @@
     "storybook": "storybook start -p 9001"
   },
   "dependencies": {
+    "axios": "^0.16.2",
     "immutable": "^3.8.1",
     "prop-types": "^15.5.10",
     "react": "16.0.0-alpha.12",

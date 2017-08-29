@@ -1,24 +1,26 @@
 import React from 'react';
 import propTypes from 'prop-types';
 import { FlatList } from 'react-native';
-import ArticleItem from '../ArticleItem';
+import ArticleItemContainer from '../../containers/ArticleItemContainer';
 
-const ArticleList = ({ articles }) =>
+const ArticleList = ({ articles, navigation }) =>
   <FlatList
     data={articles}
     keyExtractor={item => item.title}
     renderItem={({ item }) =>
-      <ArticleItem
+      <ArticleItemContainer
         title={item.title}
         date={item.date}
-        image={item.image_url}
+        image_url={item.image_url}
         authors={item.authors}
         website={item.website}
+        navigation={navigation}
       />}
   />;
 
 ArticleList.propTypes = {
   articles: propTypes.array.isRequired,
+  navigation: propTypes.object.isRequired,
 };
 
 export default ArticleList;

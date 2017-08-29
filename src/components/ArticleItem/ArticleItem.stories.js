@@ -23,7 +23,7 @@ storiesOf('ArticleItem', module).add('with obama news', () =>
         authors={'Graham Spencer'}
         date={'05/26/2014'}
         website={'MacStories'}
-        image={'https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_01_illh01.jpg'}
+        image_url={'https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_01_illh01.jpg'}
       />
     </View>
   </View>,
@@ -35,7 +35,7 @@ storiesOf('ArticleItem', module).add('with obama news', () =>
         authors={'Alexandre Henrique Shailesh Zeta-Jones'}
         date={'05/28/2014'}
         website={'International Business Times - Australia'}
-        image={'https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_03_ocz3gy.jpg'}
+        image_url={'https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_03_ocz3gy.jpg'}
       />
     </View>
   </View>,
@@ -47,7 +47,7 @@ storiesOf('ArticleItem', module).add('with obama news', () =>
         authors={'Graham Spencer'}
         date={'05/26/2014'}
         website={'MacStories'}
-        image={'https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_01_illh01.jpg'}
+        image_url={'https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_01_illh01.jpg'}
         isRead={true}
       />
     </View>

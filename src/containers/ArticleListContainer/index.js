@@ -24,8 +24,9 @@ const enhance = compose(
     },
   }),
   hideIfNoArticles,
-  mapProps(({ articles }) => ({
+  mapProps(({ articles, ...rest }) => ({
     articles: articles.toJSON(),
+    ...rest,
   })),
 );
 

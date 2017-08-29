@@ -18,18 +18,22 @@ exports[`Storyshots ArticleItem with NASA news 1`] = `
   >
     <View
       style={
-        Object {
-          "backgroundColor": "#fff",
-          "borderRadius": 2,
-          "margin": 5,
-          "shadowColor": "#000000",
-          "shadowOffset": Object {
-            "height": 1,
-            "width": 0.3,
+        Array [
+          Object {
+            "borderRadius": 2,
+            "margin": 5,
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 1,
+              "width": 0.3,
+            },
+            "shadowOpacity": 0.3,
+            "shadowRadius": 1,
           },
-          "shadowOpacity": 0.3,
-          "shadowRadius": 1,
-        }
+          Object {
+            "backgroundColor": "#fff",
+          },
+        ]
       }
     >
       <Image
@@ -39,9 +43,14 @@ exports[`Storyshots ArticleItem with NASA news 1`] = `
           }
         }
         style={
-          Object {
-            "height": 150,
-          }
+          Array [
+            Object {
+              "height": 150,
+            },
+            Object {
+              "opacity": 1,
+            },
+          ]
         }
       />
       <View
@@ -134,18 +143,22 @@ exports[`Storyshots ArticleItem with obama news 1`] = `
   >
     <View
       style={
-        Object {
-          "backgroundColor": "#fff",
-          "borderRadius": 2,
-          "margin": 5,
-          "shadowColor": "#000000",
-          "shadowOffset": Object {
-            "height": 1,
-            "width": 0.3,
+        Array [
+          Object {
+            "borderRadius": 2,
+            "margin": 5,
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 1,
+              "width": 0.3,
+            },
+            "shadowOpacity": 0.3,
+            "shadowRadius": 1,
           },
-          "shadowOpacity": 0.3,
-          "shadowRadius": 1,
-        }
+          Object {
+            "backgroundColor": "#fff",
+          },
+        ]
       }
     >
       <Image
@@ -155,9 +168,139 @@ exports[`Storyshots ArticleItem with obama news 1`] = `
           }
         }
         style={
+          Array [
+            Object {
+              "height": 150,
+            },
+            Object {
+              "opacity": 1,
+            },
+          ]
+        }
+      />
+      <View
+        style={
           Object {
-            "height": 150,
+            "margin": 10,
           }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "fontSize": 20,
+              "fontWeight": "500",
+            }
+          }
+        >
+          Obama Offers Hopeful Vision While Noting Nation's Fears
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#424242",
+              "fontSize": 14,
+            }
+          }
+        >
+          Graham Spencer
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#757575",
+              "fontSize": 10,
+              "fontWeight": "500",
+            }
+          }
+        >
+          05/26/2014
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "color": "#757575",
+              "fontSize": 10,
+              "marginTop": 4,
+            }
+          }
+        >
+          MacStories
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots ArticleItem with obama read 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#DFE0E0",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 200,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderRadius": 2,
+            "margin": 5,
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 1,
+              "width": 0.3,
+            },
+            "shadowOpacity": 0.3,
+            "shadowRadius": 1,
+          },
+          Object {
+            "backgroundColor": "#E0E0E0",
+          },
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_01_illh01.jpg",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 150,
+            },
+            Object {
+              "opacity": 0.4,
+            },
+          ]
         }
       />
       <View
@@ -359,18 +502,22 @@ exports[`Storyshots ArticleList with default list 1`] = `
       >
         <View
           style={
-            Object {
-              "backgroundColor": "#fff",
-              "borderRadius": 2,
-              "margin": 5,
-              "shadowColor": "#000000",
-              "shadowOffset": Object {
-                "height": 1,
-                "width": 0.3,
+            Array [
+              Object {
+                "borderRadius": 2,
+                "margin": 5,
+                "shadowColor": "#000000",
+                "shadowOffset": Object {
+                  "height": 1,
+                  "width": 0.3,
+                },
+                "shadowOpacity": 0.3,
+                "shadowRadius": 1,
               },
-              "shadowOpacity": 0.3,
-              "shadowRadius": 1,
-            }
+              Object {
+                "backgroundColor": "#fff",
+              },
+            ]
           }
         >
           <Image
@@ -380,9 +527,14 @@ exports[`Storyshots ArticleList with default list 1`] = `
               }
             }
             style={
-              Object {
-                "height": 150,
-              }
+              Array [
+                Object {
+                  "height": 150,
+                },
+                Object {
+                  "opacity": 1,
+                },
+              ]
             }
           />
           <View
@@ -460,18 +612,22 @@ exports[`Storyshots ArticleList with default list 1`] = `
       >
         <View
           style={
-            Object {
-              "backgroundColor": "#fff",
-              "borderRadius": 2,
-              "margin": 5,
-              "shadowColor": "#000000",
-              "shadowOffset": Object {
-                "height": 1,
-                "width": 0.3,
+            Array [
+              Object {
+                "borderRadius": 2,
+                "margin": 5,
+                "shadowColor": "#000000",
+                "shadowOffset": Object {
+                  "height": 1,
+                  "width": 0.3,
+                },
+                "shadowOpacity": 0.3,
+                "shadowRadius": 1,
               },
-              "shadowOpacity": 0.3,
-              "shadowRadius": 1,
-            }
+              Object {
+                "backgroundColor": "#fff",
+              },
+            ]
           }
         >
           <Image
@@ -481,9 +637,14 @@ exports[`Storyshots ArticleList with default list 1`] = `
               }
             }
             style={
-              Object {
-                "height": 150,
-              }
+              Array [
+                Object {
+                  "height": 150,
+                },
+                Object {
+                  "opacity": 1,
+                },
+              ]
             }
           />
           <View
@@ -561,18 +722,22 @@ exports[`Storyshots ArticleList with default list 1`] = `
       >
         <View
           style={
-            Object {
-              "backgroundColor": "#fff",
-              "borderRadius": 2,
-              "margin": 5,
-              "shadowColor": "#000000",
-              "shadowOffset": Object {
-                "height": 1,
-                "width": 0.3,
+            Array [
+              Object {
+                "borderRadius": 2,
+                "margin": 5,
+                "shadowColor": "#000000",
+                "shadowOffset": Object {
+                  "height": 1,
+                  "width": 0.3,
+                },
+                "shadowOpacity": 0.3,
+                "shadowRadius": 1,
               },
-              "shadowOpacity": 0.3,
-              "shadowRadius": 1,
-            }
+              Object {
+                "backgroundColor": "#fff",
+              },
+            ]
           }
         >
           <Image
@@ -582,9 +747,14 @@ exports[`Storyshots ArticleList with default list 1`] = `
               }
             }
             style={
-              Object {
-                "height": 150,
-              }
+              Array [
+                Object {
+                  "height": 150,
+                },
+                Object {
+                  "opacity": 1,
+                },
+              ]
             }
           />
           <View
@@ -662,18 +832,22 @@ exports[`Storyshots ArticleList with default list 1`] = `
       >
         <View
           style={
-            Object {
-              "backgroundColor": "#fff",
-              "borderRadius": 2,
-              "margin": 5,
-              "shadowColor": "#000000",
-              "shadowOffset": Object {
-                "height": 1,
-                "width": 0.3,
+            Array [
+              Object {
+                "borderRadius": 2,
+                "margin": 5,
+                "shadowColor": "#000000",
+                "shadowOffset": Object {
+                  "height": 1,
+                  "width": 0.3,
+                },
+                "shadowOpacity": 0.3,
+                "shadowRadius": 1,
               },
-              "shadowOpacity": 0.3,
-              "shadowRadius": 1,
-            }
+              Object {
+                "backgroundColor": "#fff",
+              },
+            ]
           }
         >
           <Image
@@ -683,9 +857,14 @@ exports[`Storyshots ArticleList with default list 1`] = `
               }
             }
             style={
-              Object {
-                "height": 150,
-              }
+              Array [
+                Object {
+                  "height": 150,
+                },
+                Object {
+                  "opacity": 1,
+                },
+              ]
             }
           />
           <View
@@ -763,18 +942,22 @@ exports[`Storyshots ArticleList with default list 1`] = `
       >
         <View
           style={
-            Object {
-              "backgroundColor": "#fff",
-              "borderRadius": 2,
-              "margin": 5,
-              "shadowColor": "#000000",
-              "shadowOffset": Object {
-                "height": 1,
-                "width": 0.3,
+            Array [
+              Object {
+                "borderRadius": 2,
+                "margin": 5,
+                "shadowColor": "#000000",
+                "shadowOffset": Object {
+                  "height": 1,
+                  "width": 0.3,
+                },
+                "shadowOpacity": 0.3,
+                "shadowRadius": 1,
               },
-              "shadowOpacity": 0.3,
-              "shadowRadius": 1,
-            }
+              Object {
+                "backgroundColor": "#fff",
+              },
+            ]
           }
         >
           <Image
@@ -784,9 +967,14 @@ exports[`Storyshots ArticleList with default list 1`] = `
               }
             }
             style={
-              Object {
-                "height": 150,
-              }
+              Array [
+                Object {
+                  "height": 150,
+                },
+                Object {
+                  "opacity": 1,
+                },
+              ]
             }
           />
           <View
@@ -864,18 +1052,22 @@ exports[`Storyshots ArticleList with default list 1`] = `
       >
         <View
           style={
-            Object {
-              "backgroundColor": "#fff",
-              "borderRadius": 2,
-              "margin": 5,
-              "shadowColor": "#000000",
-              "shadowOffset": Object {
-                "height": 1,
-                "width": 0.3,
+            Array [
+              Object {
+                "borderRadius": 2,
+                "margin": 5,
+                "shadowColor": "#000000",
+                "shadowOffset": Object {
+                  "height": 1,
+                  "width": 0.3,
+                },
+                "shadowOpacity": 0.3,
+                "shadowRadius": 1,
               },
-              "shadowOpacity": 0.3,
-              "shadowRadius": 1,
-            }
+              Object {
+                "backgroundColor": "#fff",
+              },
+            ]
           }
         >
           <Image
@@ -885,9 +1077,14 @@ exports[`Storyshots ArticleList with default list 1`] = `
               }
             }
             style={
-              Object {
-                "height": 150,
-              }
+              Array [
+                Object {
+                  "height": 150,
+                },
+                Object {
+                  "opacity": 1,
+                },
+              ]
             }
           />
           <View

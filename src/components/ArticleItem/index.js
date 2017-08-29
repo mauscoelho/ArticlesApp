@@ -41,6 +41,7 @@ const styles = StyleSheet.create({
     color: '#424242',
   },
   date: {
+    flex: 1,
     fontSize: 10,
     color: '#757575',
     fontWeight: '500',
@@ -48,8 +49,10 @@ const styles = StyleSheet.create({
   website: {
     fontSize: 10,
     color: '#757575',
-    marginTop: 4,
-    alignSelf: 'flex-end',
+  },
+  bottomContainer: {
+    marginTop: 8,
+    flexDirection: 'row',
   },
 });
 
@@ -67,12 +70,14 @@ const ArticleItem = ({ title, date, authors, website, image_url, isRead, onPress
         <Text style={styles.authors}>
           {authors}
         </Text>
-        <Text style={styles.date}>
-          {date}
-        </Text>
-        <Text style={styles.website}>
-          {website}
-        </Text>
+        <View style={styles.bottomContainer}>
+          <Text style={styles.date}>
+            {date}
+          </Text>
+          <Text style={styles.website}>
+            {website}
+          </Text>
+        </View>
       </View>
     </View>
   </TouchableHighlight>;

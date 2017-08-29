@@ -1,5 +1,354 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots ArticleDetail with obama news 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#DFE0E0",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 200,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderRadius": 2,
+            "margin": 5,
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 1,
+              "width": 0.3,
+            },
+            "shadowOpacity": 0.3,
+            "shadowRadius": 1,
+          },
+          Object {
+            "backgroundColor": "#fff",
+          },
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_01_illh01.jpg",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 200,
+            },
+            Object {
+              "opacity": 1,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Object {
+            "margin": 10,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "fontSize": 20,
+              "fontWeight": "500",
+            }
+          }
+        >
+          Obama Offers Hopeful Vision While Noting Nation's Fears
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#424242",
+              "fontSize": 14,
+            }
+          }
+        >
+          Graham Spencer
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "marginTop": 6,
+            }
+          }
+        >
+          In his last State of the Union address, President Obama sought to paint a hopeful portrait. But he acknowledged that many Americans felt shut out of a political and economic system they view as rigged.
+        </Text>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "marginTop": 6,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "marginRight": 2,
+              }
+            }
+          >
+            #Politics
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "marginRight": 2,
+              }
+            }
+          >
+            #Obama
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#757575",
+                "flex": 1,
+                "fontSize": 10,
+                "fontWeight": "500",
+              }
+            }
+          >
+            05/26/2014
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#757575",
+                "fontSize": 10,
+              }
+            }
+          >
+            MacStories
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots ArticleDetail with obama read 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#DFE0E0",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 200,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderRadius": 2,
+            "margin": 5,
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 1,
+              "width": 0.3,
+            },
+            "shadowOpacity": 0.3,
+            "shadowRadius": 1,
+          },
+          Object {
+            "backgroundColor": "#E0E0E0",
+          },
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_01_illh01.jpg",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 200,
+            },
+            Object {
+              "opacity": 0.4,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Object {
+            "margin": 10,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "fontSize": 20,
+              "fontWeight": "500",
+            }
+          }
+        >
+          Obama Offers Hopeful Vision While Noting Nation's Fears
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#424242",
+              "fontSize": 14,
+            }
+          }
+        >
+          Graham Spencer
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "marginTop": 6,
+            }
+          }
+        >
+          In his last State of the Union address, President Obama sought to paint a hopeful portrait. But he acknowledged that many Americans felt shut out of a political and economic system they view as rigged.
+        </Text>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "marginTop": 6,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "marginRight": 2,
+              }
+            }
+          >
+            #Politics
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#757575",
+                "flex": 1,
+                "fontSize": 10,
+                "fontWeight": "500",
+              }
+            }
+          >
+            05/26/2014
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#757575",
+                "fontSize": 10,
+              }
+            }
+          >
+            MacStories
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
 exports[`Storyshots ArticleItem with NASA news 1`] = `
 <View
   style={
@@ -115,37 +464,45 @@ exports[`Storyshots ArticleItem with NASA news 1`] = `
           >
             Alexandre Henrique Shailesh Zeta-Jones
           </Text>
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            disabled={false}
-            ellipsizeMode="tail"
+          <View
             style={
               Object {
-                "color": "#757575",
-                "fontSize": 10,
-                "fontWeight": "500",
+                "flexDirection": "row",
+                "marginTop": 8,
               }
             }
           >
-            05/28/2014
-          </Text>
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            disabled={false}
-            ellipsizeMode="tail"
-            style={
-              Object {
-                "alignSelf": "flex-end",
-                "color": "#757575",
-                "fontSize": 10,
-                "marginTop": 4,
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#757575",
+                  "flex": 1,
+                  "fontSize": 10,
+                  "fontWeight": "500",
+                }
               }
-            }
-          >
-            International Business Times - Australia
-          </Text>
+            >
+              05/28/2014
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#757575",
+                  "fontSize": 10,
+                }
+              }
+            >
+              International Business Times - Australia
+            </Text>
+          </View>
         </View>
       </View>
     </View>
@@ -268,37 +625,45 @@ exports[`Storyshots ArticleItem with obama news 1`] = `
           >
             Graham Spencer
           </Text>
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            disabled={false}
-            ellipsizeMode="tail"
+          <View
             style={
               Object {
-                "color": "#757575",
-                "fontSize": 10,
-                "fontWeight": "500",
+                "flexDirection": "row",
+                "marginTop": 8,
               }
             }
           >
-            05/26/2014
-          </Text>
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            disabled={false}
-            ellipsizeMode="tail"
-            style={
-              Object {
-                "alignSelf": "flex-end",
-                "color": "#757575",
-                "fontSize": 10,
-                "marginTop": 4,
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#757575",
+                  "flex": 1,
+                  "fontSize": 10,
+                  "fontWeight": "500",
+                }
               }
-            }
-          >
-            MacStories
-          </Text>
+            >
+              05/26/2014
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#757575",
+                  "fontSize": 10,
+                }
+              }
+            >
+              MacStories
+            </Text>
+          </View>
         </View>
       </View>
     </View>
@@ -421,37 +786,45 @@ exports[`Storyshots ArticleItem with obama read 1`] = `
           >
             Graham Spencer
           </Text>
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            disabled={false}
-            ellipsizeMode="tail"
+          <View
             style={
               Object {
-                "color": "#757575",
-                "fontSize": 10,
-                "fontWeight": "500",
+                "flexDirection": "row",
+                "marginTop": 8,
               }
             }
           >
-            05/26/2014
-          </Text>
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            disabled={false}
-            ellipsizeMode="tail"
-            style={
-              Object {
-                "alignSelf": "flex-end",
-                "color": "#757575",
-                "fontSize": 10,
-                "marginTop": 4,
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#757575",
+                  "flex": 1,
+                  "fontSize": 10,
+                  "fontWeight": "500",
+                }
               }
-            }
-          >
-            MacStories
-          </Text>
+            >
+              05/26/2014
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#757575",
+                  "fontSize": 10,
+                }
+              }
+            >
+              MacStories
+            </Text>
+          </View>
         </View>
       </View>
     </View>
@@ -683,37 +1056,45 @@ exports[`Storyshots ArticleList with default list 1`] = `
               >
                 Graham Spencer
               </Text>
-              <Text
-                accessible={true}
-                allowFontScaling={true}
-                disabled={false}
-                ellipsizeMode="tail"
+              <View
                 style={
                   Object {
-                    "color": "#757575",
-                    "fontSize": 10,
-                    "fontWeight": "500",
+                    "flexDirection": "row",
+                    "marginTop": 8,
                   }
                 }
               >
-                05/26/2014
-              </Text>
-              <Text
-                accessible={true}
-                allowFontScaling={true}
-                disabled={false}
-                ellipsizeMode="tail"
-                style={
-                  Object {
-                    "alignSelf": "flex-end",
-                    "color": "#757575",
-                    "fontSize": 10,
-                    "marginTop": 4,
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  disabled={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#757575",
+                      "flex": 1,
+                      "fontSize": 10,
+                      "fontWeight": "500",
+                    }
                   }
-                }
-              >
-                MacStories
-              </Text>
+                >
+                  05/26/2014
+                </Text>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  disabled={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#757575",
+                      "fontSize": 10,
+                    }
+                  }
+                >
+                  MacStories
+                </Text>
+              </View>
             </View>
           </View>
         </View>
@@ -821,37 +1202,45 @@ exports[`Storyshots ArticleList with default list 1`] = `
               >
                 Fran Bellamy
               </Text>
-              <Text
-                accessible={true}
-                allowFontScaling={true}
-                disabled={false}
-                ellipsizeMode="tail"
+              <View
                 style={
                   Object {
-                    "color": "#757575",
-                    "fontSize": 10,
-                    "fontWeight": "500",
+                    "flexDirection": "row",
+                    "marginTop": 8,
                   }
                 }
               >
-                05/27/2014
-              </Text>
-              <Text
-                accessible={true}
-                allowFontScaling={true}
-                disabled={false}
-                ellipsizeMode="tail"
-                style={
-                  Object {
-                    "alignSelf": "flex-end",
-                    "color": "#757575",
-                    "fontSize": 10,
-                    "marginTop": 4,
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  disabled={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#757575",
+                      "flex": 1,
+                      "fontSize": 10,
+                      "fontWeight": "500",
+                    }
                   }
-                }
-              >
-                Masslive
-              </Text>
+                >
+                  05/27/2014
+                </Text>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  disabled={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#757575",
+                      "fontSize": 10,
+                    }
+                  }
+                >
+                  Masslive
+                </Text>
+              </View>
             </View>
           </View>
         </View>
@@ -959,37 +1348,45 @@ exports[`Storyshots ArticleList with default list 1`] = `
               >
                 Alexandre Henrique Shailesh Zeta-Jones
               </Text>
-              <Text
-                accessible={true}
-                allowFontScaling={true}
-                disabled={false}
-                ellipsizeMode="tail"
+              <View
                 style={
                   Object {
-                    "color": "#757575",
-                    "fontSize": 10,
-                    "fontWeight": "500",
+                    "flexDirection": "row",
+                    "marginTop": 8,
                   }
                 }
               >
-                05/28/2014
-              </Text>
-              <Text
-                accessible={true}
-                allowFontScaling={true}
-                disabled={false}
-                ellipsizeMode="tail"
-                style={
-                  Object {
-                    "alignSelf": "flex-end",
-                    "color": "#757575",
-                    "fontSize": 10,
-                    "marginTop": 4,
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  disabled={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#757575",
+                      "flex": 1,
+                      "fontSize": 10,
+                      "fontWeight": "500",
+                    }
                   }
-                }
-              >
-                International Business Times - Australia
-              </Text>
+                >
+                  05/28/2014
+                </Text>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  disabled={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#757575",
+                      "fontSize": 10,
+                    }
+                  }
+                >
+                  International Business Times - Australia
+                </Text>
+              </View>
             </View>
           </View>
         </View>
@@ -1097,37 +1494,45 @@ exports[`Storyshots ArticleList with default list 1`] = `
               >
                 Dusan Belic
               </Text>
-              <Text
-                accessible={true}
-                allowFontScaling={true}
-                disabled={false}
-                ellipsizeMode="tail"
+              <View
                 style={
                   Object {
-                    "color": "#757575",
-                    "fontSize": 10,
-                    "fontWeight": "500",
+                    "flexDirection": "row",
+                    "marginTop": 8,
                   }
                 }
               >
-                05/26/2014
-              </Text>
-              <Text
-                accessible={true}
-                allowFontScaling={true}
-                disabled={false}
-                ellipsizeMode="tail"
-                style={
-                  Object {
-                    "alignSelf": "flex-end",
-                    "color": "#757575",
-                    "fontSize": 10,
-                    "marginTop": 4,
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  disabled={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#757575",
+                      "flex": 1,
+                      "fontSize": 10,
+                      "fontWeight": "500",
+                    }
                   }
-                }
-              >
-                Into Mobile
-              </Text>
+                >
+                  05/26/2014
+                </Text>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  disabled={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#757575",
+                      "fontSize": 10,
+                    }
+                  }
+                >
+                  Into Mobile
+                </Text>
+              </View>
             </View>
           </View>
         </View>
@@ -1235,37 +1640,45 @@ exports[`Storyshots ArticleList with default list 1`] = `
               >
                 Harmeet Shah Singh
               </Text>
-              <Text
-                accessible={true}
-                allowFontScaling={true}
-                disabled={false}
-                ellipsizeMode="tail"
+              <View
                 style={
                   Object {
-                    "color": "#757575",
-                    "fontSize": 10,
-                    "fontWeight": "500",
+                    "flexDirection": "row",
+                    "marginTop": 8,
                   }
                 }
               >
-                04/02/2014
-              </Text>
-              <Text
-                accessible={true}
-                allowFontScaling={true}
-                disabled={false}
-                ellipsizeMode="tail"
-                style={
-                  Object {
-                    "alignSelf": "flex-end",
-                    "color": "#757575",
-                    "fontSize": 10,
-                    "marginTop": 4,
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  disabled={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#757575",
+                      "flex": 1,
+                      "fontSize": 10,
+                      "fontWeight": "500",
+                    }
                   }
-                }
-              >
-                CNN
-              </Text>
+                >
+                  04/02/2014
+                </Text>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  disabled={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#757575",
+                      "fontSize": 10,
+                    }
+                  }
+                >
+                  CNN
+                </Text>
+              </View>
             </View>
           </View>
         </View>
@@ -1373,37 +1786,45 @@ exports[`Storyshots ArticleList with default list 1`] = `
               >
                 Rene Ritchie
               </Text>
-              <Text
-                accessible={true}
-                allowFontScaling={true}
-                disabled={false}
-                ellipsizeMode="tail"
+              <View
                 style={
                   Object {
-                    "color": "#757575",
-                    "fontSize": 10,
-                    "fontWeight": "500",
+                    "flexDirection": "row",
+                    "marginTop": 8,
                   }
                 }
               >
-                05/26/2014
-              </Text>
-              <Text
-                accessible={true}
-                allowFontScaling={true}
-                disabled={false}
-                ellipsizeMode="tail"
-                style={
-                  Object {
-                    "alignSelf": "flex-end",
-                    "color": "#757575",
-                    "fontSize": 10,
-                    "marginTop": 4,
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  disabled={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#757575",
+                      "flex": 1,
+                      "fontSize": 10,
+                      "fontWeight": "500",
+                    }
                   }
-                }
-              >
-                iMore
-              </Text>
+                >
+                  05/26/2014
+                </Text>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  disabled={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "#757575",
+                      "fontSize": 10,
+                    }
+                  }
+                >
+                  iMore
+                </Text>
+              </View>
             </View>
           </View>
         </View>

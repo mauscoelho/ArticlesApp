@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import { compose, mapProps } from 'recompose';
-import ArticleItem from '../../components/ArticleItem';
+import ArticleDetail from '../../components/ArticleDetail';
 import { getArticlesAction } from '../../actions';
 
 const mapStateToProps = (state, { navigation }) => ({
@@ -19,4 +19,4 @@ const enhance = compose(
     ...article.toJSON(),
   })));
 
-export default enhance(ArticleItem);
+export default enhance(ArticleDetail);

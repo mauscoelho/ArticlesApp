@@ -45,7 +45,7 @@ exports[`Storyshots ArticleDetail with obama news 1`] = `
         style={
           Array [
             Object {
-              "height": 200,
+              "height": 250,
             },
             Object {
               "opacity": 1,
@@ -226,7 +226,7 @@ exports[`Storyshots ArticleDetail with obama read 1`] = `
         style={
           Array [
             Object {
-              "height": 200,
+              "height": 250,
             },
             Object {
               "opacity": 0.4,

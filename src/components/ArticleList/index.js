@@ -7,8 +7,9 @@ const ArticleList = ({ articles, navigation }) =>
   <FlatList
     data={articles}
     keyExtractor={item => item.title}
-    renderItem={({ item }) =>
+    renderItem={({ item, index }) =>
       <ArticleItemContainer
+        index={index}
         title={item.title}
         date={item.date}
         image_url={item.image_url}

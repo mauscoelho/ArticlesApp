@@ -3,8 +3,8 @@ import { compose, mapProps } from 'recompose';
 import ArticleItem from '../../components/ArticleItem';
 import { getArticlesAction } from '../../actions';
 
-const mapStateToProps = state => ({
-  article: state.get('articles').get(0),
+const mapStateToProps = (state, { navigation }) => ({
+  article: state.get('articles').get(navigation.state.params.index),
 });
 
 const mapDispatchToProps = dispatch => ({

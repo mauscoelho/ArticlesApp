@@ -2,9 +2,10 @@ import { connect } from 'react-redux';
 import { compose, lifecycle, branch, renderNothing, mapProps } from 'recompose';
 import ArticleList from '../../components/ArticleList';
 import { getArticlesAction } from '../../actions';
+import getVisibleArticles from '../../selectors';
 
 const mapStateToProps = state => ({
-  articles: state.get('articles'),
+  articles: getVisibleArticles(state),
 });
 
 const mapDispatchToProps = dispatch => ({

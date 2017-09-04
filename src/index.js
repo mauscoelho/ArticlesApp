@@ -4,15 +4,19 @@ import { StackNavigator } from 'react-navigation';
 import store from './store';
 import Home from './screens/Home';
 import Detail from './screens/Detail';
+import Filter from './screens/Filter';
 
 const Screens = StackNavigator({
   Home: {
     screen: Home,
-    navigationOptions: { title: 'Home' },
   },
   Detail: {
     screen: Detail,
     navigationOptions: { title: 'Detail' },
+  },
+  Filter: {
+    screen: Filter,
+    navigationOptions: { title: 'Filter' },
   },
 });
 
@@ -21,6 +25,5 @@ const App = () => (
     <Screens />
   </Provider>
 );
-
 
 export default App;

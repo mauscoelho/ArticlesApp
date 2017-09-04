@@ -6,7 +6,6 @@ const initialState = Map({ visibilityFilter: Filter.Default });
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case CHANGE_FILTER:
-      console.log(state);
       return state.set('visibilityFilter', action.payload);
     default:
       return state;

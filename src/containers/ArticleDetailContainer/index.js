@@ -4,7 +4,7 @@ import ArticleDetail from '../../components/ArticleDetail';
 import { getArticlesAction } from '../../actions';
 
 const mapStateToProps = (state, { navigation }) => ({
-  article: state.get('articles').get(navigation.state.params.index),
+  article: state.get('articles').find(article => article.get('title') === navigation.state.params.title),
 });
 
 const mapDispatchToProps = dispatch => ({

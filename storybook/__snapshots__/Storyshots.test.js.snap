@@ -18,94 +18,52 @@ exports[`Storyshots ArticleDetail with obama news 1`] = `
   >
     <View
       style={
-        Array [
-          Object {
-            "borderRadius": 2,
-            "margin": 5,
-            "shadowColor": "#000000",
-            "shadowOffset": Object {
-              "height": 1,
-              "width": 0.3,
-            },
-            "shadowOpacity": 0.3,
-            "shadowRadius": 1,
-          },
-          Object {
-            "backgroundColor": "#fff",
-          },
-        ]
+        Object {
+          "flex": 1,
+        }
       }
     >
-      <Image
-        source={
-          Object {
-            "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_01_illh01.jpg",
-          }
-        }
+      <View
         style={
           Array [
             Object {
-              "height": 250,
+              "borderRadius": 2,
+              "margin": 5,
+              "shadowColor": "#000000",
+              "shadowOffset": Object {
+                "height": 1,
+                "width": 0.3,
+              },
+              "shadowOpacity": 0.3,
+              "shadowRadius": 1,
             },
             Object {
-              "opacity": 1,
+              "backgroundColor": "#fff",
             },
           ]
         }
-      />
-      <View
-        style={
-          Object {
-            "margin": 10,
-          }
-        }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          disabled={false}
-          ellipsizeMode="tail"
-          style={
+        <Image
+          source={
             Object {
-              "fontSize": 20,
-              "fontWeight": "500",
+              "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_01_illh01.jpg",
             }
           }
-        >
-          Obama Offers Hopeful Vision While Noting Nation's Fears
-        </Text>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          disabled={false}
-          ellipsizeMode="tail"
           style={
-            Object {
-              "color": "#424242",
-              "fontSize": 14,
-            }
+            Array [
+              Object {
+                "height": 250,
+              },
+              Object {
+                "opacity": 1,
+              },
+            ]
           }
-        >
-          Graham Spencer
-        </Text>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          disabled={false}
-          ellipsizeMode="tail"
-          style={
-            Object {
-              "marginTop": 6,
-            }
-          }
-        >
-          In his last State of the Union address, President Obama sought to paint a hopeful portrait. But he acknowledged that many Americans felt shut out of a political and economic system they view as rigged.
-        </Text>
+        />
         <View
           style={
             Object {
-              "flexDirection": "row",
-              "marginTop": 6,
+              "margin": 10,
             }
           }
         >
@@ -116,49 +74,12 @@ exports[`Storyshots ArticleDetail with obama news 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "marginRight": 2,
-              }
-            }
-          >
-            #Politics
-          </Text>
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            disabled={false}
-            ellipsizeMode="tail"
-            style={
-              Object {
-                "marginRight": 2,
-              }
-            }
-          >
-            #Obama
-          </Text>
-        </View>
-        <View
-          style={
-            Object {
-              "flexDirection": "row",
-              "marginTop": 8,
-            }
-          }
-        >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            disabled={false}
-            ellipsizeMode="tail"
-            style={
-              Object {
-                "color": "#757575",
-                "flex": 1,
-                "fontSize": 10,
+                "fontSize": 20,
                 "fontWeight": "500",
               }
             }
           >
-            05/26/2014
+            Obama Offers Hopeful Vision While Noting Nation's Fears
           </Text>
           <Text
             accessible={true}
@@ -167,13 +88,284 @@ exports[`Storyshots ArticleDetail with obama news 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "#757575",
-                "fontSize": 10,
+                "color": "#424242",
+                "fontSize": 14,
               }
             }
           >
-            MacStories
+            Graham Spencer
           </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "marginTop": 6,
+              }
+            }
+          >
+            In his last State of the Union address, President Obama sought to paint a hopeful portrait. But he acknowledged that many Americans felt shut out of a political and economic system they view as rigged.
+          </Text>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginTop": 6,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "marginRight": 2,
+                }
+              }
+            >
+              #Politics
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "marginRight": 2,
+                }
+              }
+            >
+              #Obama
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginTop": 8,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#757575",
+                  "flex": 1,
+                  "fontSize": 10,
+                  "fontWeight": "500",
+                }
+              }
+            >
+              05/26/2014
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#757575",
+                  "fontSize": 10,
+                }
+              }
+            >
+              MacStories
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        pointerEvents="box-none"
+        style={
+          Array [
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              Object {
+                "elevation": undefined,
+                "justifyContent": "flex-end",
+                "zIndex": undefined,
+              },
+            ],
+            undefined,
+          ]
+        }
+      >
+        <View
+          collapsable={undefined}
+          pointerEvents="none"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "bottom": 0,
+              "elevation": undefined,
+              "justifyContent": "flex-end",
+              "left": 0,
+              "opacity": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "zIndex": undefined,
+            }
+          }
+        />
+        <View
+          pointerEvents="box-none"
+          style={
+            Array [
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                },
+                Object {
+                  "elevation": undefined,
+                  "justifyContent": "flex-end",
+                  "zIndex": undefined,
+                },
+              ],
+              Object {
+                "alignItems": "flex-end",
+              },
+              Object {
+                "paddingVertical": 30,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "marginHorizontal": 30,
+                  "zIndex": undefined,
+                },
+                Object {
+                  "elevation": 5,
+                  "shadowColor": "#000",
+                  "shadowOffset": Object {
+                    "height": 5,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.35,
+                  "shadowRadius": 3,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              accessibilityComponentType={undefined}
+              accessibilityLabel={undefined}
+              accessibilityTraits={undefined}
+              accessible={true}
+              collapsable={undefined}
+              hitSlop={undefined}
+              isTVSelectable={true}
+              nativeID={undefined}
+              onLayout={undefined}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID={undefined}
+              tvParallaxProperties={undefined}
+            >
+              <View
+                collapsable={undefined}
+                style={
+                  Object {
+                    "backgroundColor": "rgba(76, 175, 80, 1)",
+                    "borderRadius": 28,
+                    "height": 56,
+                    "width": 56,
+                  }
+                }
+              >
+                <View
+                  collapsable={undefined}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "borderRadius": 28,
+                      "height": 56,
+                      "justifyContent": "center",
+                      "transform": Array [
+                        Object {
+                          "scale": 1,
+                        },
+                        Object {
+                          "rotate": "0deg",
+                        },
+                      ],
+                      "width": 56,
+                    }
+                  }
+                >
+                  <View
+                    onPress={undefined}
+                    style={undefined}
+                    underlayColor="white"
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={false}
+                      disabled={false}
+                      ellipsizeMode="tail"
+                      style={
+                        Array [
+                          Object {
+                            "color": "black",
+                            "fontSize": 24,
+                          },
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                            },
+                            undefined,
+                          ],
+                          Object {
+                            "fontFamily": "Material Design Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                        ]
+                      }
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
         </View>
       </View>
     </View>
@@ -199,94 +391,52 @@ exports[`Storyshots ArticleDetail with obama read 1`] = `
   >
     <View
       style={
-        Array [
-          Object {
-            "borderRadius": 2,
-            "margin": 5,
-            "shadowColor": "#000000",
-            "shadowOffset": Object {
-              "height": 1,
-              "width": 0.3,
-            },
-            "shadowOpacity": 0.3,
-            "shadowRadius": 1,
-          },
-          Object {
-            "backgroundColor": "#E0E0E0",
-          },
-        ]
+        Object {
+          "flex": 1,
+        }
       }
     >
-      <Image
-        source={
-          Object {
-            "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_01_illh01.jpg",
-          }
-        }
+      <View
         style={
           Array [
             Object {
-              "height": 250,
+              "borderRadius": 2,
+              "margin": 5,
+              "shadowColor": "#000000",
+              "shadowOffset": Object {
+                "height": 1,
+                "width": 0.3,
+              },
+              "shadowOpacity": 0.3,
+              "shadowRadius": 1,
             },
             Object {
-              "opacity": 0.4,
+              "backgroundColor": "#E0E0E0",
             },
           ]
         }
-      />
-      <View
-        style={
-          Object {
-            "margin": 10,
-          }
-        }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          disabled={false}
-          ellipsizeMode="tail"
-          style={
+        <Image
+          source={
             Object {
-              "fontSize": 20,
-              "fontWeight": "500",
+              "uri": "https://res.cloudinary.com/cheesecakelabs/image/upload/v1488993901/challenge/news_01_illh01.jpg",
             }
           }
-        >
-          Obama Offers Hopeful Vision While Noting Nation's Fears
-        </Text>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          disabled={false}
-          ellipsizeMode="tail"
           style={
-            Object {
-              "color": "#424242",
-              "fontSize": 14,
-            }
+            Array [
+              Object {
+                "height": 250,
+              },
+              Object {
+                "opacity": 0.4,
+              },
+            ]
           }
-        >
-          Graham Spencer
-        </Text>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          disabled={false}
-          ellipsizeMode="tail"
-          style={
-            Object {
-              "marginTop": 6,
-            }
-          }
-        >
-          In his last State of the Union address, President Obama sought to paint a hopeful portrait. But he acknowledged that many Americans felt shut out of a political and economic system they view as rigged.
-        </Text>
+        />
         <View
           style={
             Object {
-              "flexDirection": "row",
-              "marginTop": 6,
+              "margin": 10,
             }
           }
         >
@@ -297,36 +447,12 @@ exports[`Storyshots ArticleDetail with obama read 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "marginRight": 2,
-              }
-            }
-          >
-            #Politics
-          </Text>
-        </View>
-        <View
-          style={
-            Object {
-              "flexDirection": "row",
-              "marginTop": 8,
-            }
-          }
-        >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            disabled={false}
-            ellipsizeMode="tail"
-            style={
-              Object {
-                "color": "#757575",
-                "flex": 1,
-                "fontSize": 10,
+                "fontSize": 20,
                 "fontWeight": "500",
               }
             }
           >
-            05/26/2014
+            Obama Offers Hopeful Vision While Noting Nation's Fears
           </Text>
           <Text
             accessible={true}
@@ -335,13 +461,271 @@ exports[`Storyshots ArticleDetail with obama read 1`] = `
             ellipsizeMode="tail"
             style={
               Object {
-                "color": "#757575",
-                "fontSize": 10,
+                "color": "#424242",
+                "fontSize": 14,
               }
             }
           >
-            MacStories
+            Graham Spencer
           </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "marginTop": 6,
+              }
+            }
+          >
+            In his last State of the Union address, President Obama sought to paint a hopeful portrait. But he acknowledged that many Americans felt shut out of a political and economic system they view as rigged.
+          </Text>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginTop": 6,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "marginRight": 2,
+                }
+              }
+            >
+              #Politics
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginTop": 8,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#757575",
+                  "flex": 1,
+                  "fontSize": 10,
+                  "fontWeight": "500",
+                }
+              }
+            >
+              05/26/2014
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={false}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "color": "#757575",
+                  "fontSize": 10,
+                }
+              }
+            >
+              MacStories
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        pointerEvents="box-none"
+        style={
+          Array [
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              Object {
+                "elevation": undefined,
+                "justifyContent": "flex-end",
+                "zIndex": undefined,
+              },
+            ],
+            undefined,
+          ]
+        }
+      >
+        <View
+          collapsable={undefined}
+          pointerEvents="none"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "bottom": 0,
+              "elevation": undefined,
+              "justifyContent": "flex-end",
+              "left": 0,
+              "opacity": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "zIndex": undefined,
+            }
+          }
+        />
+        <View
+          pointerEvents="box-none"
+          style={
+            Array [
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                },
+                Object {
+                  "elevation": undefined,
+                  "justifyContent": "flex-end",
+                  "zIndex": undefined,
+                },
+              ],
+              Object {
+                "alignItems": "flex-end",
+              },
+              Object {
+                "paddingVertical": 30,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "marginHorizontal": 30,
+                  "zIndex": undefined,
+                },
+                Object {
+                  "elevation": 5,
+                  "shadowColor": "#000",
+                  "shadowOffset": Object {
+                    "height": 5,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.35,
+                  "shadowRadius": 3,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              accessibilityComponentType={undefined}
+              accessibilityLabel={undefined}
+              accessibilityTraits={undefined}
+              accessible={true}
+              collapsable={undefined}
+              hitSlop={undefined}
+              isTVSelectable={true}
+              nativeID={undefined}
+              onLayout={undefined}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "opacity": 1,
+                }
+              }
+              testID={undefined}
+              tvParallaxProperties={undefined}
+            >
+              <View
+                collapsable={undefined}
+                style={
+                  Object {
+                    "backgroundColor": "rgba(76, 175, 80, 1)",
+                    "borderRadius": 28,
+                    "height": 56,
+                    "width": 56,
+                  }
+                }
+              >
+                <View
+                  collapsable={undefined}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "borderRadius": 28,
+                      "height": 56,
+                      "justifyContent": "center",
+                      "transform": Array [
+                        Object {
+                          "scale": 1,
+                        },
+                        Object {
+                          "rotate": "0deg",
+                        },
+                      ],
+                      "width": 56,
+                    }
+                  }
+                >
+                  <View
+                    onPress={undefined}
+                    style={undefined}
+                    underlayColor="white"
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={false}
+                      disabled={false}
+                      ellipsizeMode="tail"
+                      style={
+                        Array [
+                          Object {
+                            "color": "black",
+                            "fontSize": 24,
+                          },
+                          Array [
+                            Object {
+                              "backgroundColor": "transparent",
+                            },
+                            undefined,
+                          ],
+                          Object {
+                            "fontFamily": "Material Design Icons",
+                            "fontStyle": "normal",
+                            "fontWeight": "normal",
+                          },
+                        ]
+                      }
+                    >
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
         </View>
       </View>
     </View>

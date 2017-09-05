@@ -9,7 +9,7 @@ const findArticle = (state, title) =>
   state.findIndex(article => article.get('title') === title);
 
 const markAsRead = (state, { payload }) =>
-  state.setIn([findArticle(state, payload), 'isRead'], true);
+  state.updateIn([findArticle(state, payload), 'isRead'], value => !value);
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {

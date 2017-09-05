@@ -90,7 +90,7 @@ ArticleItem.propTypes = {
   authors: propTypes.string.isRequired,
   website: propTypes.string.isRequired,
   image_url: propTypes.string.isRequired,
-  isRead: propTypes.bool,
+  isRead: propTypes.bool.isRequired,
   onPress: propTypes.func,
 };
 

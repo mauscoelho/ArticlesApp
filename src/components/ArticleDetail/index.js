@@ -1,8 +1,13 @@
 import React from 'react';
 import propTypes from 'prop-types';
 import { View, Text, StyleSheet, Image } from 'react-native';
+import { Icon } from 'react-native-elements';
+import ActionButton from 'react-native-action-button';
 
 const styles = StyleSheet.create({
+  view: {
+    flex: 1,
+  },
   card: {
     margin: 5,
     borderRadius: 2,
@@ -66,38 +71,52 @@ const styles = StyleSheet.create({
   },
 });
 
-const renderHashtags = tags => tags.map(tag => <Text style={styles.hashtag} key={tag.id}>{`#${tag.label}`}</Text>);
+const renderHashtags = tags =>
+  tags.map(tag => (
+    <Text style={styles.hashtag} key={tag.id}>{`#${tag.label}`}</Text>
+  ));
 
-const ArticleDetail = ({ title, date, authors, website, image_url, content, tags, isRead }) =>
-  <View style={[styles.card, isRead ? styles.cardRead : styles.cardNotRead]}>
-    <Image
-      style={[styles.image, isRead ? styles.imageRead : styles.imageNotRead]}
-      source={{ uri: image_url }}
-    />
-    <View style={styles.body}>
-      <Text style={styles.title}>
-        {title}
-      </Text>
-      <Text style={styles.authors}>
-        {authors}
-      </Text>
-      <Text style={styles.content}>
-        {content}
-      </Text>
-      <View style={styles.hashtagContainer}>
-        {renderHashtags(tags)}
-      </View>
-      <View style={styles.bottomContainer}>
-        <Text style={styles.date}>
-          {date}
-        </Text>
-        <Text style={styles.website}>
-          {website}
-        </Text>
+const ArticleDetail = ({
+  title,
+  date,
+  authors,
+  website,
+  image_url,
+  content,
+  tags,
+  isRead,
+  markAsReadHandler,
+}) => (
+  <View style={styles.view}>
+    <View style={[styles.card, isRead ? styles.cardRead : styles.cardNotRead]}>
+      <Image
+        style={[styles.image, isRead ? styles.imageRead : styles.imageNotRead]}
+        source={{ uri: image_url }}
+      />
+      <View style={styles.body}>
+        <Text style={styles.title}>{title}</Text>
+        <Text style={styles.authors}>{authors}</Text>
+        <Text style={styles.content}>{content}</Text>
+        <View style={styles.hashtagContainer}>{renderHashtags(tags)}</View>
+        <View style={styles.bottomContainer}>
+          <Text style={styles.date}>{date}</Text>
+          <Text style={styles.website}>{website}</Text>
+        </View>
       </View>
     </View>
+    <ActionButton
+      buttonColor="#4CAF50"
+      onPress={markAsReadHandler}
+      icon={
+        <Icon
+          style={styles.icon}
+          type={'material-community'}
+          name="check"
+        />
+      }
+    />
   </View>
-  ;
+);
 
 ArticleDetail.propTypes = {
   title: propTypes.string.isRequired,
@@ -108,6 +127,7 @@ ArticleDetail.propTypes = {
   content: propTypes.string.isRequired,
   tags: propTypes.array.isRequired,
   isRead: propTypes.bool,
+  markAsReadHandler: propTypes.func,
 };
 
 ArticleDetail.defaultProps = {

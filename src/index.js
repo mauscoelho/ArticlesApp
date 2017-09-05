@@ -12,7 +12,12 @@ const Screens = StackNavigator({
     screen: Home,
     navigationOptions: ({ navigation }) => ({
       title: 'Home',
-      headerRight: <Button title={'Filter'} onPress={() => navigation.navigate('Filter')} />,
+      headerRight: (
+        <Button
+          title={'Filter'}
+          onPress={() => navigation.navigate('Filter')}
+        />
+      ),
     }),
   },
   Detail: {

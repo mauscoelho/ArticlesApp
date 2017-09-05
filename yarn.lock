@@ -5626,6 +5626,12 @@ react-modal@^2.2.4:
     prop-types "^15.5.10"
     react-dom-factories "^1.0.0"
 
+react-native-action-button@^2.8.0:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/react-native-action-button/-/react-native-action-button-2.8.0.tgz#8446388f722c1a95619f28ab33b91bf9488075e9"
+  dependencies:
+    prop-types "^15.5.10"
+
 react-native-compat@0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/react-native-compat/-/react-native-compat-0.0.2.tgz#5d7642f3d53ad324a025893be3c66d16a01cda23"

@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux-immutable';
 import articles from './articles';
-import visibilityFilter from './visibilityFilter';
+import settings from './settings';
 
 export default combineReducers({
   articles,
-  visibilityFilter,
+  settings,
 });

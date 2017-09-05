@@ -1,7 +1,7 @@
 import { createSelector } from 'reselect';
 import { Filter } from '../contansts';
 
-const getVisibilityFilter = state => state.get('visibilityFilter');
+const getVisibilityFilter = state => state.get('settings').get('visibilityFilter');
 const getArticles = state => state.get('articles');
 
 const getVisibleArticles = createSelector(

@@ -2,8 +2,8 @@ import { compose, withHandlers, setPropTypes } from 'recompose';
 import propTypes from 'prop-types';
 import ArticleItem from '../../components/ArticleItem';
 
-const onPress = ({ navigation, index }) => () => {
-  navigation.navigate('Detail', { index });
+const onPress = ({ navigation, title }) => () => {
+  navigation.navigate('Detail', { title });
 };
 
 const enhance = compose(

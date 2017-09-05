@@ -1,14 +1,37 @@
 import React from 'react';
 import propTypes from 'prop-types';
-import { FlatList } from 'react-native';
-import SelectableItem from '../SelectableItem';
+import { FlatList, View, StyleSheet } from 'react-native';
+import FilterItemContainer from '../../containers/FilterItemContainer';
 
-const FilterList = ({ filters }) => (
+const styles = StyleSheet.create({
+  list: {
+    marginTop: 20,
+  },
+  separator: {
+    height: 1,
+    backgroundColor: '#EEF0F3',
+  },
+});
+
+const renderSeparator = () => (
+  <View
+    style={styles.separator}
+  />
+);
+
+const FilterList = ({ filters, navigation }) => (
   <FlatList
+    style={styles.list}
     data={filters}
     keyExtractor={item => item.title}
+    ItemSeparatorComponent={renderSeparator}
     renderItem={({ item, index }) => (
-      <SelectableItem key={index} title={item.title} />
+      <FilterItemContainer
+        key={index}
+        title={item.title}
+        selected={item.selected}
+        navigation={navigation}
+      />
     )}
   />
 );

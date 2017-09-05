@@ -1,4 +1,4 @@
-import { GET_ARTICLES, GET_ARTICLES_RESPONSE } from '../contansts';
+import { GET_ARTICLES, GET_ARTICLES_RESPONSE, CHANGE_FILTER } from '../contansts';
 
 const getArticlesAction = args => ({
   type: GET_ARTICLES,
@@ -10,4 +10,9 @@ const getArticlesResponse = args => ({
   payload: args,
 });
 
-export { getArticlesAction, getArticlesResponse };
+const changeFilterAction = args => ({
+  type: CHANGE_FILTER,
+  payload: args,
+});
+
+export { getArticlesAction, getArticlesResponse, changeFilterAction };

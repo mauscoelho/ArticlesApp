@@ -20,6 +20,7 @@
     "recompose": "^0.25.0",
     "redux": "^3.7.2",
     "redux-immutable": "^4.0.0",
+    "redux-mock-store": "^1.2.3",
     "redux-observable": "^0.16.0",
     "remote-redux-devtools": "^0.5.12",
     "reselect": "^3.0.1",

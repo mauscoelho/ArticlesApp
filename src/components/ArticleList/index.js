@@ -15,6 +15,7 @@ const ArticleList = ({ articles, navigation }) =>
         image_url={item.image_url}
         authors={item.authors}
         website={item.website}
+        isRead={item.isRead}
         navigation={navigation}
       />}
   />;

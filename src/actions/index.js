@@ -1,4 +1,9 @@
-import { GET_ARTICLES, GET_ARTICLES_RESPONSE, CHANGE_FILTER } from '../contansts';
+import {
+  GET_ARTICLES,
+  GET_ARTICLES_RESPONSE,
+  CHANGE_FILTER,
+  MARK_AS_READ,
+} from '../contansts';
 
 const getArticlesAction = args => ({
   type: GET_ARTICLES,
@@ -15,4 +20,14 @@ const changeFilterAction = args => ({
   payload: args,
 });
 
-export { getArticlesAction, getArticlesResponse, changeFilterAction };
+const markAsReadAction = args => ({
+  type: MARK_AS_READ,
+  payload: args,
+});
+
+export {
+  getArticlesAction,
+  getArticlesResponse,
+  changeFilterAction,
+  markAsReadAction,
+};

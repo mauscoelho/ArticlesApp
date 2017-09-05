@@ -14,6 +14,7 @@ const enhance = compose(
     authors: propTypes.string.isRequired,
     website: propTypes.string.isRequired,
     image_url: propTypes.string.isRequired,
+    isRead: propTypes.bool,
     navigation: propTypes.object,
   }),
   withHandlers({

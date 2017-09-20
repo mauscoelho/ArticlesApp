@@ -18,3 +18,7 @@ Use storybook to see all of components and states
 ## Screenshots
 
 ![Home](https://github.com/mauscoelho/ArticlesApp/blob/screenshots/screenshots/home.png "Home")
+
+![Detail](https://github.com/mauscoelho/ArticlesApp/blob/screenshots/screenshots/detail.png "Detail")
+
+![Filter](https://github.com/mauscoelho/ArticlesApp/blob/screenshots/screenshots/filter.png "Filter")

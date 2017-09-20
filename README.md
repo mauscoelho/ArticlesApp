@@ -15,3 +15,6 @@ Use storybook to see all of components and states
 - Run `react-native run-ios` or `react-native run-android`
 - `yarn storybook` - run storybook server
 
+## Screenshots
+
+![Home](/screenshots/home.jpg?raw=true "Home")

@@ -17,4 +17,4 @@ Use storybook to see all of components and states
 
 ## Screenshots
 
-![Home](/screenshots/home.jpg?raw=true "Home")
+![Home](https://github.com/mauscoelho/ArticlesApp/blob/screenshots/screenshots/home.png "Home")

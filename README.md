@@ -15,3 +15,10 @@ Use storybook to see all of components and states
 - Run `react-native run-ios` or `react-native run-android`
 - `yarn storybook` - run storybook server
 
+## Screenshots
+
+![Home](https://github.com/mauscoelho/ArticlesApp/blob/screenshots/screenshots/home.png "Home")
+
+![Detail](https://github.com/mauscoelho/ArticlesApp/blob/screenshots/screenshots/detail.png "Detail")
+
+![Filter](https://github.com/mauscoelho/ArticlesApp/blob/screenshots/screenshots/filter.png "Filter")
